@@ -4,11 +4,13 @@ public class PlayerControl : MonoBehaviour
 {
     public float speed = 5f;
     private Rigidbody2D rb;
+    private Animator animator;  // Added animator reference
     private bool canMove = true;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();  // Initialize animator reference
     }
 
     void Update()
@@ -37,6 +39,11 @@ public class PlayerControl : MonoBehaviour
         dir.Normalize();
         rb.velocity = speed * dir;
 
+        // Update animator parameters
+        animator.SetFloat("Horizontal", dir.x);
+        animator.SetFloat("Vertical", dir.y);
+        animator.SetFloat("Speed", dir.sqrMagnitude);
+
         if (Input.GetKeyDown(KeyCode.E))
         {
             GhostController.Instance.DepossessCharacter();
@@ -46,6 +53,7 @@ public class PlayerControl : MonoBehaviour
     public void StopMovement()
     {
         rb.velocity = Vector2.zero;
+        animator.SetFloat("Speed", 0);  // Set Speed to 0 when stopped
         canMove = false;
     }
 
