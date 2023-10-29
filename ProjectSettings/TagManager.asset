@@ -3,17 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NPC
+  - Light
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Layer 1
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Layer 2
+  - Layer 3
+  - Light
   - 
   - 
   - 
