@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcType: Green
   movementSpeed: 5
-  possessionTime: 5
+  possessionTime: 15

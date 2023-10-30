@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Bob
   m_EditorClassIdentifier: 
   npcType: Bob
-  movementSpeed: 1
+  movementSpeed: 3
   possessionTime: 10
