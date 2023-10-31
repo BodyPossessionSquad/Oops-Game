@@ -9,10 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a60637ecfce45740a3fc092282a11b4, type: 3}
-  m_Name: Green
+  m_Script: {fileID: 11500000, guid: f5535c0992624974f97a245590eb428f, type: 3}
+  m_Name: bob-movement
   m_EditorClassIdentifier: 
-  npcType: Green
-  movementSpeed: 5
-  possessionTime: 15
-  movementPattern: {fileID: 11400000, guid: 9e189b01892ae034dafe3bbb22c74c57, type: 2}
+  steps:
+  - direction: {x: 10, y: 0}
+    duration: 10
+  - direction: {x: -10, y: 0}
+    duration: 10
