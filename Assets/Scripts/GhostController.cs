@@ -4,6 +4,7 @@ using UnityEngine;
 public class GhostController : MonoBehaviour
 {
     public float possessionRange = 2f;
+    public float possessionAnimationDuration = 1f;
     public GameObject currentPossessedCharacter = null;
     public int health = 100;
     public int maxHealth = 100;
@@ -11,6 +12,7 @@ public class GhostController : MonoBehaviour
     public float healPercentage = 0.1f;
     public GameObject ghostContainer;
     public UIManager uiManager;
+    public Animator animator;
 
     private CameraFollow cameraFollow;
 
@@ -33,6 +35,7 @@ public class GhostController : MonoBehaviour
         uiManager = FindObjectOfType<UIManager>();
         cameraFollow = Camera.main.GetComponent<CameraFollow>();
         SetCameraTarget(transform);
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -65,101 +68,138 @@ public class GhostController : MonoBehaviour
 
     void PossessCharacter(GameObject character)
     {
-        currentPossessedCharacter = character;
-        GetComponent<Renderer>().enabled = false;  // Disable Renderer
-        GetComponent<Collider2D>().enabled = false;  // Disable Collider
-        gameObject.SetActive(false);
-        PlayerControl pc = character.AddComponent<PlayerControl>();
-        pc.speed = character.GetComponent<NPC>().configuration.movementSpeed;
-        SetCameraTarget(character.transform);
+        // Start possession animation immediately
+        animator.SetBool("isPossessing", true);
 
-        // Disable NPC's automatic movement
-        NPC npcComponent = character.GetComponent<NPC>();
-        if (npcComponent != null)
+        // Disable the character after the possession animation finishes
+        CoroutineManager.Instance.ExecuteAfterDelay(possessionAnimationDuration, () =>
         {
-            npcComponent.canMove = false;
-        }
+            currentPossessedCharacter = character;
+            GetComponent<Renderer>().enabled = false;
+            GetComponent<Collider2D>().enabled = false;
+            gameObject.SetActive(false);
+            PlayerControl pc = character.AddComponent<PlayerControl>();
+            pc.speed = character.GetComponent<NPC>().configuration.movementSpeed;
+            SetCameraTarget(character.transform);
 
-        float possessionTime = character.GetComponent<NPC>().configuration.possessionTime;
-        // Make sure the CoroutineManager instance exists before calling ExecuteAfterDelay
-        if (CoroutineManager.Instance != null)
-        {
-            // Schedule the blinking to start 3 seconds before depossessing
-            CoroutineManager.Instance.ExecuteAfterDelay(possessionTime - 3f, () => 
+            // Disable NPC's automatic movement
+            NPC npcComponent = character.GetComponent<NPC>();
+            if (npcComponent != null)
             {
-                uiManager.StartBlinking();
-            }, "Depossess");
+                npcComponent.canMove = false;
+            }
 
-            // Schedule the StopMovement call 1 second before depossessing
-            CoroutineManager.Instance.ExecuteAfterDelay(possessionTime - 1f, () => 
+            float possessionTime = character.GetComponent<NPC>().configuration.possessionTime;
+            // Make sure the CoroutineManager instance exists before calling ExecuteAfterDelay
+            if (CoroutineManager.Instance != null)
             {
-                if (currentPossessedCharacter != null)
+                // Schedule the blinking to start 3 seconds before depossessing
+                CoroutineManager.Instance.ExecuteAfterDelay(possessionTime - 3f, () =>
                 {
-                    currentPossessedCharacter.GetComponent<PlayerControl>().StopMovement();
-                }
-            }, "Depossess");
+                    uiManager.StartBlinking();
+                }, "Depossess");
 
-            // Schedule the depossessing
-            CoroutineManager.Instance.ExecuteAfterDelay(possessionTime, DepossessCharacter, "Depossess");
-        }
+                // Schedule the StopMovement call 1 second before depossessing
+                CoroutineManager.Instance.ExecuteAfterDelay(possessionTime - 1f, () =>
+                {
+                    if (currentPossessedCharacter != null)
+                    {
+                        currentPossessedCharacter.GetComponent<PlayerControl>().StopMovement();
+                    }
+                }, "Depossess");
 
-        HealGhostFixed();
+                // Schedule the depossessing
+                CoroutineManager.Instance.ExecuteAfterDelay(possessionTime, DepossessCharacter, "Depossess");
+            }
+
+            HealGhostFixed();
+        }, "Possession");
     }
 
     public void DepossessCharacter()
+{
+    Debug.Log("Depossessing character");
+
+    // Check if there is a character to depossess
+    if (currentPossessedCharacter != null)
     {
-        Debug.Log("Depossessing character");
-        if (currentPossessedCharacter != null)
+        // Update the ghost's position to the NPC's position
+        transform.position = currentPossessedCharacter.transform.position;
+
+        // Stop the NPC's current movement
+        Rigidbody2D rb = currentPossessedCharacter.GetComponent<Rigidbody2D>();
+        if (rb != null)
         {
-            // Update the ghost's position to the NPC's position
-            transform.position = currentPossessedCharacter.transform.position;
-
-            // Stop NPC movement
-            Rigidbody2D rb = currentPossessedCharacter.GetComponent<Rigidbody2D>();
-            if (rb != null)
-            {
-                rb.velocity = Vector2.zero;
-            }
-
-            currentPossessedCharacter.GetComponent<PlayerControl>().ResumeMovement();
-            Destroy(currentPossessedCharacter.GetComponent<PlayerControl>());
-
-            // Re-enable NPC's automatic movement
-            NPC npcComponent = currentPossessedCharacter.GetComponent<NPC>();
-            if (npcComponent != null)
-            {
-                npcComponent.InitiateCooldown();  // Initiate the cooldown period
-            }
-
-            currentPossessedCharacter = null;
+            rb.velocity = Vector2.zero;
         }
 
-        // Re-enable the game object
-        gameObject.SetActive(true);
+        // Try to get the PlayerControl component
+        PlayerControl playerControl = currentPossessedCharacter.GetComponent<PlayerControl>();
+        if (playerControl != null)
+        {
+            // Call any necessary cleanup methods before removing the component
+            playerControl.ResumeMovement();
 
-        // Explicitly re-enable the Renderer and Collider2D components
-        GetComponent<Renderer>().enabled = true;
-        GetComponent<Collider2D>().enabled = true;
+            // Use DestroyImmediate to remove the PlayerControl component immediately
+            DestroyImmediate(playerControl);
+        }
 
-        // Cancel any scheduled coroutines related to depossessing
-        CoroutineManager.Instance.StopCoroutinesWithTag("Depossess");
-        uiManager.StopBlinking();
-
-        SetCameraTarget(transform);
-
-        Debug.Log("Renderer enabled: " + GetComponent<Renderer>().enabled);
-        Debug.Log("Collider enabled: " + GetComponent<Collider2D>().enabled);
-    }
-
-    bool CanPossess(GameObject character)
-    {
-        NPC npcComponent = character.GetComponent<NPC>();
+        // Re-enable NPC's automatic movement
+        NPC npcComponent = currentPossessedCharacter.GetComponent<NPC>();
         if (npcComponent != null)
         {
-            return Time.time >= npcComponent.lastDispossessedTime + 10f;  // Check if 10 seconds have elapsed since last dispossessed
+            // Initiate the cooldown period before the NPC can be possessed again
+            npcComponent.InitiateCooldown();
         }
-        return true;  // Allow possession if character is not an NPC
+
+        // Clear the reference to the currently possessed character
+        currentPossessedCharacter = null;
     }
+
+    // Re-enable the ghost game object
+    gameObject.SetActive(true);
+
+    // Explicitly re-enable the Renderer and Collider2D components
+    Renderer renderer = GetComponent<Renderer>();
+    if (renderer != null)
+    {
+        renderer.enabled = true;
+    }
+    Collider2D collider = GetComponent<Collider2D>();
+    if (collider != null)
+    {
+        collider.enabled = true;
+    }
+
+    // Cancel any scheduled coroutines related to depossessing
+    if (CoroutineManager.Instance != null)
+    {
+        CoroutineManager.Instance.StopCoroutinesWithTag("Depossess");
+    }
+
+    // Stop any UI blinking effects related to possession
+    if (uiManager != null)
+    {
+        uiManager.StopBlinking();
+    }
+
+    // Reset the camera's target to the ghost
+    SetCameraTarget(transform);
+
+    Debug.Log("Renderer enabled: " + renderer.enabled);
+    Debug.Log("Collider enabled: " + collider.enabled);
+ }
+ 
+    bool CanPossess(GameObject character)
+ {
+    NPC npcComponent = character.GetComponent<NPC>();
+    if (npcComponent != null)
+    {
+        // Use the NPC's dispossessCooldown instead of a hardcoded value
+        return Time.time >= npcComponent.lastDispossessedTime + npcComponent.dispossessCooldown;
+    }
+    return true; // Allow possession if character is not an NPC
+ }
 
     public void TakeDamage(int damage)
     {

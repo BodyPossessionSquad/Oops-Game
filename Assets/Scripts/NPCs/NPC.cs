@@ -109,24 +109,24 @@ public class NPC : MonoBehaviour
     }
 
     public void ToggleMovement(bool toggle)
+ {
+    if (Time.time < lastDispossessedTime + dispossessCooldown) // Use the variable instead of a hard-coded value
     {
-        if (Time.time < lastDispossessedTime + 10f)  // Check if 10 seconds have elapsed since last dispossessed
-     {
-        return;  // Do not allow movement if cooldown period has not elapsed
-     }
-        canMove = toggle;
-        if (!canMove)
+        return; // Do not allow movement if cooldown period has not elapsed
+    }
+    canMove = toggle;
+    if (!canMove)
+    {
+        StopAllCoroutines();
+        rb.velocity = Vector2.zero;
+        UpdateAnimator();
+    }
+    else
+    {
+        if (movementPattern != null && movementPattern.steps.Count > 0)
         {
-            StopAllCoroutines();
-            rb.velocity = Vector2.zero;
-            UpdateAnimator();
-        }
-        else
-        {
-            if (movementPattern != null && movementPattern.steps.Count > 0)
-            {
-                StartCoroutine(MovementRoutine());
-            }
+            StartCoroutine(MovementRoutine());
         }
     }
+ }
 }
