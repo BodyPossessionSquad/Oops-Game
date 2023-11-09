@@ -41,9 +41,8 @@ public class GhostController : MonoBehaviour
 
     void Update()
     {
-         if (isPossessing)
+        if (isPossessing)
         {
-            // If we're currently in the process of possessing, ignore input
             return;
         }
 
@@ -75,11 +74,10 @@ public class GhostController : MonoBehaviour
 
     void PossessCharacter(GameObject character)
     {
-        isPossessing = true; // Set the flag to true when possession starts
+        isPossessing = true;
         animator.SetBool("isPossessing", true);
 
-        // Disable the character after the possession animation finishes
-        CoroutineManager.Instance.ExecuteAfterDelay(possessionAnimationDuration, () =>
+        GameManager.Instance.ExecuteAfterDelay(possessionAnimationDuration, () =>
         {
             currentPossessedCharacter = character;
             GetComponent<Renderer>().enabled = false;
@@ -89,7 +87,6 @@ public class GhostController : MonoBehaviour
             pc.speed = character.GetComponent<NPC>().configuration.movementSpeed;
             SetCameraTarget(character.transform);
 
-            // Disable NPC's automatic movement
             NPC npcComponent = character.GetComponent<NPC>();
             if (npcComponent != null)
             {
@@ -97,27 +94,21 @@ public class GhostController : MonoBehaviour
             }
 
             float possessionTime = character.GetComponent<NPC>().configuration.possessionTime;
-            // Make sure the CoroutineManager instance exists before calling ExecuteAfterDelay
-            if (CoroutineManager.Instance != null)
+
+            GameManager.Instance.ExecuteAfterDelay(possessionTime - 3f, () =>
             {
-                // Schedule the blinking to start 3 seconds before depossessing
-                CoroutineManager.Instance.ExecuteAfterDelay(possessionTime - 3f, () =>
-                {
-                    uiManager.StartBlinking();
-                }, "Depossess");
+                uiManager.StartBlinking();
+            }, "Depossess");
 
-                // Schedule the StopMovement call 1 second before depossessing
-                CoroutineManager.Instance.ExecuteAfterDelay(possessionTime - 1f, () =>
+            GameManager.Instance.ExecuteAfterDelay(possessionTime - 1f, () =>
+            {
+                if (currentPossessedCharacter != null)
                 {
-                    if (currentPossessedCharacter != null)
-                    {
-                        currentPossessedCharacter.GetComponent<PlayerControl>().StopMovement();
-                    }
-                }, "Depossess");
+                    currentPossessedCharacter.GetComponent<PlayerControl>().StopMovement();
+                }
+            }, "Depossess");
 
-                // Schedule the depossessing
-                CoroutineManager.Instance.ExecuteAfterDelay(possessionTime, DepossessCharacter, "Depossess");
-            }
+            GameManager.Instance.ExecuteAfterDelay(possessionTime, DepossessCharacter, "Depossess");
 
             isPossessing = false;
 
@@ -127,101 +118,78 @@ public class GhostController : MonoBehaviour
     }
 
     public void DepossessCharacter()
-{
-    if (isPossessing)
+    {
+        if (isPossessing)
         {
             return;
         }
 
-    Debug.Log("Depossessing character");
+        if (currentPossessedCharacter != null)
+        {
+            transform.position = currentPossessedCharacter.transform.position;
 
-    // Check if there is a character to depossess
-    if (currentPossessedCharacter != null)
+            Rigidbody2D rb = currentPossessedCharacter.GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                rb.velocity = Vector2.zero;
+            }
+
+            isPossessing = false;
+
+            PlayerControl playerControl = currentPossessedCharacter.GetComponent<PlayerControl>();
+            if (playerControl != null)
+            {
+                playerControl.ResumeMovement();
+                DestroyImmediate(playerControl);
+            }
+
+            NPC npcComponent = currentPossessedCharacter.GetComponent<NPC>();
+            if (npcComponent != null)
+            {
+                npcComponent.InitiateCooldown();
+            }
+
+            currentPossessedCharacter = null;
+        }
+
+        gameObject.SetActive(true);
+
+        Renderer renderer = GetComponent<Renderer>();
+        if (renderer != null)
+        {
+            renderer.enabled = true;
+        }
+
+        Collider2D collider = GetComponent<Collider2D>();
+        if (collider != null)
+        {
+            collider.enabled = true;
+        }
+
+        GameManager.Instance.StopCoroutinesWithTag("Depossess");
+
+        if (uiManager != null)
+        {
+            uiManager.StopBlinking();
+        }
+
+        SetCameraTarget(transform);
+    }
+
+    bool CanPossess(GameObject character)
     {
-        // Update the ghost's position to the NPC's position
-        transform.position = currentPossessedCharacter.transform.position;
-
-        // Stop the NPC's current movement
-        Rigidbody2D rb = currentPossessedCharacter.GetComponent<Rigidbody2D>();
-        if (rb != null)
-        {
-            rb.velocity = Vector2.zero;
-        }
-
-        isPossessing = false;
-
-        // Try to get the PlayerControl component
-        PlayerControl playerControl = currentPossessedCharacter.GetComponent<PlayerControl>();
-        if (playerControl != null)
-        {
-            // Call any necessary cleanup methods before removing the component
-            playerControl.ResumeMovement();
-
-            // Use DestroyImmediate to remove the PlayerControl component immediately
-            DestroyImmediate(playerControl);
-        }
-
-        // Re-enable NPC's automatic movement
-        NPC npcComponent = currentPossessedCharacter.GetComponent<NPC>();
+        NPC npcComponent = character.GetComponent<NPC>();
         if (npcComponent != null)
         {
-            // Initiate the cooldown period before the NPC can be possessed again
-            npcComponent.InitiateCooldown();
+            return Time.time >= npcComponent.lastDispossessedTime + npcComponent.dispossessCooldown;
         }
-
-        // Clear the reference to the currently possessed character
-        currentPossessedCharacter = null;
+        return true;
     }
-
-    // Re-enable the ghost game object
-    gameObject.SetActive(true);
-
-    // Explicitly re-enable the Renderer and Collider2D components
-    Renderer renderer = GetComponent<Renderer>();
-    if (renderer != null)
-    {
-        renderer.enabled = true;
-    }
-    Collider2D collider = GetComponent<Collider2D>();
-    if (collider != null)
-    {
-        collider.enabled = true;
-    }
-
-    // Cancel any scheduled coroutines related to depossessing
-    if (CoroutineManager.Instance != null)
-    {
-        CoroutineManager.Instance.StopCoroutinesWithTag("Depossess");
-    }
-
-    // Stop any UI blinking effects related to possession
-    if (uiManager != null)
-    {
-        uiManager.StopBlinking();
-    }
-
-    // Reset the camera's target to the ghost
-    SetCameraTarget(transform);
-
-    Debug.Log("Renderer enabled: " + renderer.enabled);
-    Debug.Log("Collider enabled: " + collider.enabled);
- }
- 
-    bool CanPossess(GameObject character)
- {
-    NPC npcComponent = character.GetComponent<NPC>();
-    if (npcComponent != null)
-    {
-        // Use the NPC's dispossessCooldown instead of a hardcoded value
-        return Time.time >= npcComponent.lastDispossessedTime + npcComponent.dispossessCooldown;
-    }
-    return true; // Allow possession if character is not an NPC
- }
 
     public void TakeDamage(int damage)
     {
         health -= damage;
-        uiManager.UpdateHealth(health);
+        uiManager.UpdateHealth(health, maxHealth); // Now passing both health and maxHealth
 
         if (health <= 0)
         {
@@ -229,30 +197,24 @@ public class GhostController : MonoBehaviour
         }
     }
 
-    private IEnumerator DepossessAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        DepossessCharacter();
-    }
-
     void Die()
     {
         Time.timeScale = 0;
-        GameOverManager.Instance.ShowGameOverScreen();
+        GameManager.Instance.EndGame(); // Assuming you have this method in GameManager
     }
 
-    void HealGhostFixed()
+     void HealGhostFixed()
     {
         health += healAmount;
         health = Mathf.Min(health, maxHealth);
-        uiManager.UpdateHealth(health);
+        uiManager.UpdateHealth(health, maxHealth); // Now passing both health and maxHealth
     }
 
     void HealGhostPercentage()
     {
         health += Mathf.RoundToInt(maxHealth * healPercentage);
         health = Mathf.Min(health, maxHealth);
-        uiManager.UpdateHealth(health);
+        uiManager.UpdateHealth(health, maxHealth); // Now passing both health and maxHealth
     }
 
     void SetCameraTarget(Transform newTarget)

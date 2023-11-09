@@ -560,7 +560,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: USE_PHYSICS2D
+    Standalone: USE_PHYSICS2D;DIALOGUE_QUESTS
     WebGL: USE_PHYSICS2D
   additionalCompilerArguments: {}
   platformArchitecture: {}

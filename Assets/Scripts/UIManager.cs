@@ -1,54 +1,66 @@
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
 
 public class UIManager : MonoBehaviour
 {
-    public Image healthBar;
-    public Image blinkImage;  // Reference to the Image you want to blink
-    public float blinkDuration = 3f;  // Duration of the blink effect
-    public float blinkInterval = 0.5f;  // Interval at which the image blinks
+    public Image healthBar; // Assign this in the Inspector
+    public GameObject gameOverScreen; // Assign this in the Inspector
+    public Button restartButton;
 
-    private Coroutine blinkCoroutine;  // Reference to the blinking coroutine
-
-    public void UpdateHealth(int health)
+    // Use this to update the health bar in the UI
+    public void UpdateHealth(int currentHealth, int maxHealth)
     {
-        float normalizedHealth = health / 100f;  // Assumes max health is 100
-        healthBar.fillAmount = normalizedHealth;
+        healthBar.fillAmount = (float)currentHealth / maxHealth;
     }
 
+    // Call this when the game is over to display the game over screen
+    public void ShowGameOverScreen()
+    {
+        gameOverScreen.SetActive(true);
+        restartButton.interactable = true;
+    }
+
+    // Call this to hide the game over screen, such as when the game restarts
+    public void HideGameOverScreen()
+    {
+        gameOverScreen.SetActive(false);
+    }
+
+      // Placeholder for the StartBlinking method referenced in the GhostController script
     public void StartBlinking()
     {
-        Debug.Log("StartBlinking called");
-        if (blinkCoroutine != null)
-        {
-            StopCoroutine(blinkCoroutine);  // Stop the existing blinking coroutine if there is one
-        }
-        blinkCoroutine = StartCoroutine(BlinkCoroutine());
+        // Implementation for blinking UI
     }
 
+    // Placeholder for the StopBlinking method referenced in the GhostController script
     public void StopBlinking()
     {
-        Debug.Log("StopBlinking called");
-        if (blinkCoroutine != null)
-        {
-            StopCoroutine(blinkCoroutine);  // Stop the blinking coroutine
-            blinkCoroutine = null;  // Reset the reference to the coroutine
-        }
-        blinkImage.color = new Color(1, 1, 1, 0);  // Set the image to be transparent
+        // Implementation to stop blinking UI
     }
 
-    private IEnumerator BlinkCoroutine()
+    private void Start()
     {
-        float endTime = Time.time + blinkDuration;
-        blinkImage.enabled = true;  // Make sure the image is enabled at the start
-
-        while (Time.time < endTime)
-        {
-            blinkImage.color = new Color(1, 1, 1, Mathf.PingPong(Time.time / blinkInterval, 1));
-            yield return null;
-        }
-
-        blinkImage.color = new Color(1, 1, 1, 0);  // Set the image to be transparent
+        // Optionally set up the initial button listener here if needed
+        restartButton.onClick.AddListener(OnRestartButtonClicked);
     }
+
+    private void OnRestartButtonClicked()
+    {
+        // You can either directly call the RestartGame method from GameManager here,
+        // or invoke an event that GameManager listens to.
+        Debug.Log("Restart button was clicked");
+        GameManager.Instance.RestartGame();
+    }
+
+    private void OnDestroy()
+ {
+    if (restartButton != null)
+    {
+        restartButton.onClick.RemoveListener(OnRestartButtonClicked);
+    }
+ }
+
+
+
+    // Add other UI related methods as needed
 }
