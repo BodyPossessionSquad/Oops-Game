@@ -15,6 +15,7 @@ public class GhostController : MonoBehaviour
     public Animator animator;
 
     private CameraFollow cameraFollow;
+    private bool isPossessing = false;
 
     public static GhostController Instance { get; private set; }
 
@@ -40,6 +41,12 @@ public class GhostController : MonoBehaviour
 
     void Update()
     {
+         if (isPossessing)
+        {
+            // If we're currently in the process of possessing, ignore input
+            return;
+        }
+
         if (currentPossessedCharacter != null)
         {
             transform.position = currentPossessedCharacter.transform.position;
@@ -68,7 +75,7 @@ public class GhostController : MonoBehaviour
 
     void PossessCharacter(GameObject character)
     {
-        // Start possession animation immediately
+        isPossessing = true; // Set the flag to true when possession starts
         animator.SetBool("isPossessing", true);
 
         // Disable the character after the possession animation finishes
@@ -112,12 +119,20 @@ public class GhostController : MonoBehaviour
                 CoroutineManager.Instance.ExecuteAfterDelay(possessionTime, DepossessCharacter, "Depossess");
             }
 
+            isPossessing = false;
+
             HealGhostFixed();
+
         }, "Possession");
     }
 
     public void DepossessCharacter()
 {
+    if (isPossessing)
+        {
+            return;
+        }
+
     Debug.Log("Depossessing character");
 
     // Check if there is a character to depossess
@@ -132,6 +147,8 @@ public class GhostController : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
         }
+
+        isPossessing = false;
 
         // Try to get the PlayerControl component
         PlayerControl playerControl = currentPossessedCharacter.GetComponent<PlayerControl>();
