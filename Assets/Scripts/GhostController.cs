@@ -15,7 +15,6 @@ public class GhostController : MonoBehaviour
     public Animator animator;
 
     private CameraFollow cameraFollow;
-    private bool isPossessing = false;
 
     public static GhostController Instance { get; private set; }
 
@@ -41,12 +40,6 @@ public class GhostController : MonoBehaviour
 
     void Update()
     {
-         if (isPossessing)
-        {
-            // If we're currently in the process of possessing, ignore input
-            return;
-        }
-
         if (currentPossessedCharacter != null)
         {
             transform.position = currentPossessedCharacter.transform.position;
@@ -75,7 +68,6 @@ public class GhostController : MonoBehaviour
 
     void PossessCharacter(GameObject character)
     {
-        isPossessing = true;
         // Start possession animation immediately
         animator.SetBool("isPossessing", true);
 
@@ -120,7 +112,6 @@ public class GhostController : MonoBehaviour
                 CoroutineManager.Instance.ExecuteAfterDelay(possessionTime, DepossessCharacter, "Depossess");
             }
 
-            isPossessing = false;
             HealGhostFixed();
         }, "Possession");
     }
@@ -128,11 +119,6 @@ public class GhostController : MonoBehaviour
     public void DepossessCharacter()
 {
     Debug.Log("Depossessing character");
-
-     if (isPossessing)
-     {
-        return;
-     }
 
     // Check if there is a character to depossess
     if (currentPossessedCharacter != null)

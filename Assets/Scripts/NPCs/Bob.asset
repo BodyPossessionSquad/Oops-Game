@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Bob
   m_EditorClassIdentifier: 
   npcType: Bob
-  movementSpeed: 2
+  movementSpeed: 5
   possessionTime: 10
   movementPattern: {fileID: 11400000, guid: 6c5aac2c0d1bd664da94f5032489ebc7, type: 2}
