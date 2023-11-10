@@ -13,6 +13,9 @@ public class GhostController : MonoBehaviour
     public GameObject ghostContainer;
     public UIManager uiManager;
     public Animator animator;
+    public SpriteRenderer spriteRenderer; // Assign this in the Inspector
+    public Color damageColor = Color.red; // Color for damage feedback
+    public float flashDuration = 0.2f;    // Duration of the color change
 
     private CameraFollow cameraFollow;
     private bool isPossessing = false;
@@ -74,6 +77,8 @@ public class GhostController : MonoBehaviour
 
     void PossessCharacter(GameObject character)
     {
+        currentPossessedCharacter = character;
+        uiManager.SetCurrentNPC(currentPossessedCharacter);
         isPossessing = true;
         animator.SetBool("isPossessing", true);
 
@@ -173,6 +178,9 @@ public class GhostController : MonoBehaviour
             uiManager.StopBlinking();
         }
 
+        currentPossessedCharacter = null;
+        uiManager.SetCurrentNPC(null);
+
         SetCameraTarget(transform);
     }
 
@@ -189,12 +197,24 @@ public class GhostController : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
-        uiManager.UpdateHealth(health, maxHealth); // Now passing both health and maxHealth
+        uiManager.UpdateHealth(health, maxHealth);
 
         if (health <= 0)
         {
             Die();
         }
+        else
+        {
+            StartCoroutine(FlashDamageEffect());
+        }
+    }
+
+    private IEnumerator FlashDamageEffect()
+    {
+        Color originalColor = spriteRenderer.color;
+        spriteRenderer.color = damageColor;
+        yield return new WaitForSeconds(flashDuration);
+        spriteRenderer.color = originalColor;
     }
 
     void Die()

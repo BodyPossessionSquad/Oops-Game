@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: bob-movement
   m_EditorClassIdentifier: 
   steps:
-  - direction: {x: 25, y: 0}
-    duration: 25
-  - direction: {x: -25, y: 0}
-    duration: 25
+  - direction: {x: 10, y: 0}
+    duration: 10
+  - direction: {x: -10, y: 0}
+    duration: 10
