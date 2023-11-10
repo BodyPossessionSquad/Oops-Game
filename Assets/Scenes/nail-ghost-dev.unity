@@ -39254,6 +39254,9 @@ MonoBehaviour:
   ghostContainer: {fileID: 474544705}
   uiManager: {fileID: 703512845220775593}
   animator: {fileID: 1347300507}
+  spriteRenderer: {fileID: 1347300503}
+  damageColor: {r: 1, g: 0, b: 0, a: 1}
+  flashDuration: 0.2
 --- !u!61 &1347300509
 BoxCollider2D:
   m_ObjectHideFlags: 0
