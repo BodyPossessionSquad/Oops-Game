@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; // Make sure to include this for scene management
 
 public class UIManager : MonoBehaviour
 {
     public Image healthBar; // Assign this in the Inspector
     public GameObject gameOverScreen; // Assign this in the Inspector
+    public GameObject cutsceneEndScreen; // Assign this in the Inspector
     public Button restartButton;
+    public Button continueButton; // Assign this in the Inspector
     public ParticleSystem blinkingEffect;
     private GameObject currentNPC;
 
@@ -63,7 +66,29 @@ public void StopBlinking()
     {
         // Optionally set up the initial button listener here if needed
         restartButton.onClick.AddListener(OnRestartButtonClicked);
+
+        // Setup for continue button
+        if (continueButton != null)
+        {
+            continueButton.onClick.AddListener(OnContinueButtonClicked);
+        }
     }
+
+    public void ShowCutsceneEndScreen()
+    {
+        if (cutsceneEndScreen != null)
+        {
+            cutsceneEndScreen.SetActive(true);
+        }
+    }
+
+    private void OnContinueButtonClicked()
+    {
+        // Here, load the next scene or perform any other action needed after the cutscene
+        Debug.Log("Continue button was clicked");
+        SceneManager.LoadScene("kadir-level"); // Replace "NextSceneName" with your next scene's name
+    }
+
 
     private void OnRestartButtonClicked()
     {
@@ -79,6 +104,12 @@ public void StopBlinking()
     {
         restartButton.onClick.RemoveListener(OnRestartButtonClicked);
     }
+
+    // Remove listener for continue button
+        if (continueButton != null)
+        {
+            continueButton.onClick.RemoveListener(OnContinueButtonClicked);
+        }
  }
 
 
