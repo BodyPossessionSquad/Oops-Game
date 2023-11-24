@@ -916,7 +916,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: MoveTo (Trash,Player,3)
+        value: 'MoveTo (Trash,Player,3);
+
+          AnimatorPlayWait(mc_right);
+
+          required
+          AnimatorPlay(mc_idle);'
         type: 0
         typeString: 
       conversationID: 1
@@ -1668,7 +1673,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.44200018
+    canvasZoom: 0.9519997
   - id: 4
     fields:
     - title: Title
@@ -1793,7 +1798,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Wha?
+        value: "What happened\u2026 What is happening to me? Where am I?"
         type: 0
         typeString: 
       - title: Sequence
@@ -1836,11 +1841,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1848,7 +1853,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Wha happened
+        value: "You just had an accident. You got hit by a car\u2026"
         type: 0
         typeString: 
       - title: Sequence
@@ -1891,11 +1896,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1903,7 +1908,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: you ded
+        value: What?? So, am I dead?
         type: 0
         typeString: 
       - title: Sequence
@@ -1946,11 +1951,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1958,7 +1963,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: you serious?
+        value: "Not yet. You are now a wandering spirit. Your body's somewhere\u2026
+          Struggling to stay alive\u2026 \r\n"
         type: 0
         typeString: 
       - title: Sequence
@@ -2001,6 +2007,61 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "What am I gonna do? What can I do in this spirit form?\r"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 5
+        destinationConversationID: 4
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 160
+        y: 280
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
         value: 2
         type: 5
         typeString: CustomFieldType_Actor
@@ -2013,7 +2074,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: yea bye eheh
+        value: Go to the first light on your left. I will explain.
         type: 0
         typeString: 
       - title: Sequence
@@ -2036,7 +2097,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 160
-        y: 280
+        y: 330
         width: 160
         height: 30
     entryGroups: []
