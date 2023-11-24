@@ -904,7 +904,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -916,12 +916,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'MoveTo (Trash,Player,3);
+        value: 'MoveTo (Trash,Player,4);
 
-          AnimatorPlayWait(mc_right);
+          AnimatorPlayWait(mc_right)->Message(Done);
 
           required
-          AnimatorPlay(mc_idle);'
+          AnimatorPlay(mc_idle)@Message(Done)'
         type: 0
         typeString: 
       conversationID: 1
@@ -945,7 +945,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 110
+        x: 111.53375
         y: 21
         width: 160
         height: 30
@@ -1181,7 +1181,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1293,7 +1293,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1517,7 +1517,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1572,7 +1572,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1588,9 +1588,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'MoveTo (crasher, Player, 3);
-
-          Zoom2D (crasher, 7,3);'
+        value: "MoveTo (crasher, Player, 3);\nAnimatorPlayWait(down)->Message(Done);\r"
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: 
         type: 0
         typeString: 
       conversationID: 1
@@ -1614,8 +1616,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 463.45837
-        y: 697.8627
+        x: 464.66028
+        y: 696.72626
         width: 160
         height: 30
     - id: 13
@@ -1667,13 +1669,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 463.45837
-        y: 747.8627
+        x: 462.7942
+        y: 813.8136
         width: 160
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.9519997
+    canvasZoom: 0.48525092
   - id: 4
     fields:
     - title: Title
