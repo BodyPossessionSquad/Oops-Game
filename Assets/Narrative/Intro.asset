@@ -1588,7 +1588,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: "MoveTo (crasher, Player, 3);\nAnimatorPlayWait(down)->Message(Done);\r"
+        value: 'MoveTo (crasher, Player, 3);
+
+          AnimatorPlayWait(mc_down,
+          Player);
+
+          AnimatorPlay(mc_idle, Player);'
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -1674,8 +1679,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.48525092
+    canvasScrollPosition: {x: 0, y: 273.62714}
+    canvasZoom: 0.6652507
   - id: 4
     fields:
     - title: Title
