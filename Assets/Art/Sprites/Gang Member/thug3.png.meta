@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -126,10 +139,10 @@ TextureImporter:
       name: thug3_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 624
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,7 +163,7 @@ TextureImporter:
         x: 16
         y: 624
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +181,10 @@ TextureImporter:
       name: thug3_2
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 624
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,7 +205,7 @@ TextureImporter:
         x: 48
         y: 624
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +223,10 @@ TextureImporter:
       name: thug3_4
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 592
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +244,10 @@ TextureImporter:
       name: thug3_5
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 592
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +265,10 @@ TextureImporter:
       name: thug3_6
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 592
-        width: 13
-        height: 23
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,10 +286,10 @@ TextureImporter:
       name: thug3_7
       rect:
         serializedVersion: 2
-        x: 49
+        x: 48
         y: 592
-        width: 13
-        height: 23
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +307,10 @@ TextureImporter:
       name: thug3_8
       rect:
         serializedVersion: 2
-        x: 65
+        x: 64
         y: 592
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,10 +328,10 @@ TextureImporter:
       name: thug3_9
       rect:
         serializedVersion: 2
-        x: 81
+        x: 80
         y: 592
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,8 +351,8 @@ TextureImporter:
         serializedVersion: 2
         x: 96
         y: 592
-        width: 96
-        height: 23
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,10 +370,10 @@ TextureImporter:
       name: thug3_11
       rect:
         serializedVersion: 2
-        x: 194
+        x: 112
         y: 592
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +391,10 @@ TextureImporter:
       name: thug3_12
       rect:
         serializedVersion: 2
-        x: 210
+        x: 128
         y: 592
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -399,10 +412,10 @@ TextureImporter:
       name: thug3_13
       rect:
         serializedVersion: 2
-        x: 226
+        x: 144
         y: 592
-        width: 13
-        height: 23
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,10 +433,10 @@ TextureImporter:
       name: thug3_14
       rect:
         serializedVersion: 2
-        x: 242
+        x: 160
         y: 592
-        width: 13
-        height: 23
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +454,10 @@ TextureImporter:
       name: thug3_15
       rect:
         serializedVersion: 2
-        x: 258
+        x: 176
         y: 592
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +475,10 @@ TextureImporter:
       name: thug3_16
       rect:
         serializedVersion: 2
-        x: 274
+        x: 192
         y: 592
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,10 +496,10 @@ TextureImporter:
       name: thug3_17
       rect:
         serializedVersion: 2
-        x: 288
+        x: 208
         y: 592
-        width: 96
-        height: 23
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,10 +517,10 @@ TextureImporter:
       name: thug3_18
       rect:
         serializedVersion: 2
-        x: 1
-        y: 560
-        width: 13
-        height: 22
+        x: 224
+        y: 592
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +538,10 @@ TextureImporter:
       name: thug3_19
       rect:
         serializedVersion: 2
-        x: 17
-        y: 561
-        width: 14
-        height: 22
+        x: 240
+        y: 592
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +559,10 @@ TextureImporter:
       name: thug3_20
       rect:
         serializedVersion: 2
-        x: 33
-        y: 560
-        width: 13
-        height: 22
+        x: 256
+        y: 592
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,10 +580,10 @@ TextureImporter:
       name: thug3_21
       rect:
         serializedVersion: 2
-        x: 49
-        y: 560
-        width: 13
-        height: 22
+        x: 272
+        y: 592
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,10 +601,10 @@ TextureImporter:
       name: thug3_22
       rect:
         serializedVersion: 2
-        x: 65
-        y: 561
-        width: 13
-        height: 22
+        x: 288
+        y: 592
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,10 +622,10 @@ TextureImporter:
       name: thug3_23
       rect:
         serializedVersion: 2
-        x: 81
-        y: 560
-        width: 13
-        height: 22
+        x: 304
+        y: 592
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,10 +643,10 @@ TextureImporter:
       name: thug3_24
       rect:
         serializedVersion: 2
-        x: 96
-        y: 560
-        width: 15
-        height: 22
+        x: 320
+        y: 592
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -651,10 +664,10 @@ TextureImporter:
       name: thug3_25
       rect:
         serializedVersion: 2
-        x: 112
-        y: 560
+        x: 336
+        y: 592
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -672,10 +685,10 @@ TextureImporter:
       name: thug3_26
       rect:
         serializedVersion: 2
-        x: 128
-        y: 560
-        width: 15
-        height: 22
+        x: 352
+        y: 592
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -693,10 +706,10 @@ TextureImporter:
       name: thug3_27
       rect:
         serializedVersion: 2
-        x: 145
-        y: 560
-        width: 15
-        height: 22
+        x: 368
+        y: 592
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -714,10 +727,10 @@ TextureImporter:
       name: thug3_28
       rect:
         serializedVersion: 2
-        x: 160
+        x: 0
         y: 560
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -735,10 +748,10 @@ TextureImporter:
       name: thug3_29
       rect:
         serializedVersion: 2
-        x: 177
+        x: 16
         y: 560
-        width: 15
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +769,10 @@ TextureImporter:
       name: thug3_30
       rect:
         serializedVersion: 2
-        x: 192
-        y: 528
+        x: 32
+        y: 560
         width: 16
-        height: 54
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -777,10 +790,10 @@ TextureImporter:
       name: thug3_31
       rect:
         serializedVersion: 2
-        x: 209
-        y: 561
-        width: 14
-        height: 22
+        x: 48
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -798,10 +811,10 @@ TextureImporter:
       name: thug3_32
       rect:
         serializedVersion: 2
-        x: 226
+        x: 64
         y: 560
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -819,10 +832,10 @@ TextureImporter:
       name: thug3_33
       rect:
         serializedVersion: 2
-        x: 242
+        x: 80
         y: 560
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -840,10 +853,10 @@ TextureImporter:
       name: thug3_34
       rect:
         serializedVersion: 2
-        x: 258
-        y: 561
-        width: 13
-        height: 22
+        x: 96
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -861,10 +874,10 @@ TextureImporter:
       name: thug3_35
       rect:
         serializedVersion: 2
-        x: 274
+        x: 112
         y: 560
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -882,10 +895,10 @@ TextureImporter:
       name: thug3_36
       rect:
         serializedVersion: 2
-        x: 289
-        y: 561
-        width: 15
-        height: 22
+        x: 128
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -903,10 +916,10 @@ TextureImporter:
       name: thug3_37
       rect:
         serializedVersion: 2
-        x: 305
+        x: 144
         y: 560
-        width: 15
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -924,10 +937,10 @@ TextureImporter:
       name: thug3_38
       rect:
         serializedVersion: 2
-        x: 321
-        y: 561
-        width: 30
-        height: 22
+        x: 160
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -945,10 +958,10 @@ TextureImporter:
       name: thug3_39
       rect:
         serializedVersion: 2
-        x: 352
+        x: 176
         y: 560
-        width: 15
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -966,10 +979,10 @@ TextureImporter:
       name: thug3_40
       rect:
         serializedVersion: 2
-        x: 368
-        y: 561
-        width: 15
-        height: 22
+        x: 192
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,10 +1000,10 @@ TextureImporter:
       name: thug3_41
       rect:
         serializedVersion: 2
-        x: 1
-        y: 541
-        width: 14
-        height: 14
+        x: 208
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1008,10 +1021,10 @@ TextureImporter:
       name: thug3_42
       rect:
         serializedVersion: 2
-        x: 17
-        y: 541
-        width: 14
-        height: 14
+        x: 224
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1029,10 +1042,10 @@ TextureImporter:
       name: thug3_43
       rect:
         serializedVersion: 2
-        x: 33
-        y: 542
-        width: 14
-        height: 14
+        x: 240
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1050,10 +1063,10 @@ TextureImporter:
       name: thug3_44
       rect:
         serializedVersion: 2
-        x: 49
-        y: 542
-        width: 14
-        height: 14
+        x: 256
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1071,10 +1084,10 @@ TextureImporter:
       name: thug3_45
       rect:
         serializedVersion: 2
-        x: 65
-        y: 541
-        width: 14
-        height: 14
+        x: 272
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1092,10 +1105,10 @@ TextureImporter:
       name: thug3_46
       rect:
         serializedVersion: 2
-        x: 81
-        y: 541
-        width: 14
-        height: 14
+        x: 288
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1113,10 +1126,10 @@ TextureImporter:
       name: thug3_47
       rect:
         serializedVersion: 2
-        x: 101
-        y: 545
-        width: 22
-        height: 12
+        x: 304
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1134,8 +1147,8 @@ TextureImporter:
       name: thug3_48
       rect:
         serializedVersion: 2
-        x: 128
-        y: 528
+        x: 320
+        y: 560
         width: 16
         height: 32
       alignment: 0
@@ -1155,10 +1168,10 @@ TextureImporter:
       name: thug3_49
       rect:
         serializedVersion: 2
-        x: 145
-        y: 541
-        width: 14
-        height: 14
+        x: 336
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1176,10 +1189,10 @@ TextureImporter:
       name: thug3_50
       rect:
         serializedVersion: 2
-        x: 160
-        y: 545
-        width: 11
-        height: 8
+        x: 352
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1197,10 +1210,10 @@ TextureImporter:
       name: thug3_51
       rect:
         serializedVersion: 2
-        x: 145
-        y: 532
-        width: 7
-        height: 8
+        x: 368
+        y: 560
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1218,10 +1231,10 @@ TextureImporter:
       name: thug3_52
       rect:
         serializedVersion: 2
-        x: 160
+        x: 0
         y: 528
         width: 16
-        height: 15
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1239,10 +1252,10 @@ TextureImporter:
       name: thug3_53
       rect:
         serializedVersion: 2
-        x: 179
-        y: 537
-        width: 11
-        height: 4
+        x: 16
+        y: 528
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1260,10 +1273,10 @@ TextureImporter:
       name: thug3_54
       rect:
         serializedVersion: 2
-        x: 1
-        y: 497
-        width: 14
-        height: 21
+        x: 32
+        y: 528
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1281,10 +1294,10 @@ TextureImporter:
       name: thug3_55
       rect:
         serializedVersion: 2
-        x: 17
-        y: 497
-        width: 14
-        height: 21
+        x: 48
+        y: 528
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1302,10 +1315,10 @@ TextureImporter:
       name: thug3_56
       rect:
         serializedVersion: 2
-        x: 33
-        y: 497
-        width: 14
-        height: 22
+        x: 64
+        y: 528
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1323,10 +1336,10 @@ TextureImporter:
       name: thug3_57
       rect:
         serializedVersion: 2
-        x: 49
-        y: 497
-        width: 14
-        height: 22
+        x: 80
+        y: 528
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1344,10 +1357,10 @@ TextureImporter:
       name: thug3_58
       rect:
         serializedVersion: 2
-        x: 65
-        y: 497
-        width: 14
-        height: 21
+        x: 96
+        y: 528
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1365,10 +1378,10 @@ TextureImporter:
       name: thug3_59
       rect:
         serializedVersion: 2
-        x: 81
-        y: 497
-        width: 14
-        height: 21
+        x: 112
+        y: 528
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1386,10 +1399,10 @@ TextureImporter:
       name: thug3_60
       rect:
         serializedVersion: 2
-        x: 97
-        y: 497
-        width: 14
-        height: 21
+        x: 128
+        y: 528
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1407,10 +1420,10 @@ TextureImporter:
       name: thug3_61
       rect:
         serializedVersion: 2
-        x: 113
-        y: 497
-        width: 14
-        height: 21
+        x: 144
+        y: 528
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1428,10 +1441,10 @@ TextureImporter:
       name: thug3_62
       rect:
         serializedVersion: 2
-        x: 129
-        y: 497
-        width: 14
-        height: 22
+        x: 160
+        y: 528
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1449,10 +1462,10 @@ TextureImporter:
       name: thug3_63
       rect:
         serializedVersion: 2
-        x: 145
-        y: 497
-        width: 14
-        height: 22
+        x: 176
+        y: 528
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1470,10 +1483,10 @@ TextureImporter:
       name: thug3_64
       rect:
         serializedVersion: 2
-        x: 161
-        y: 497
-        width: 14
-        height: 21
+        x: 192
+        y: 528
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1491,10 +1504,10 @@ TextureImporter:
       name: thug3_65
       rect:
         serializedVersion: 2
-        x: 177
-        y: 497
-        width: 14
-        height: 21
+        x: 0
+        y: 496
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1512,10 +1525,10 @@ TextureImporter:
       name: thug3_66
       rect:
         serializedVersion: 2
-        x: 1
-        y: 465
-        width: 13
-        height: 21
+        x: 16
+        y: 496
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1533,10 +1546,10 @@ TextureImporter:
       name: thug3_67
       rect:
         serializedVersion: 2
-        x: 17
-        y: 465
-        width: 13
-        height: 21
+        x: 32
+        y: 496
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1554,10 +1567,10 @@ TextureImporter:
       name: thug3_68
       rect:
         serializedVersion: 2
-        x: 33
-        y: 465
-        width: 13
-        height: 22
+        x: 48
+        y: 496
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1575,10 +1588,10 @@ TextureImporter:
       name: thug3_69
       rect:
         serializedVersion: 2
-        x: 49
-        y: 465
-        width: 13
-        height: 22
+        x: 64
+        y: 496
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1596,10 +1609,10 @@ TextureImporter:
       name: thug3_70
       rect:
         serializedVersion: 2
-        x: 65
-        y: 465
-        width: 13
-        height: 21
+        x: 80
+        y: 496
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1617,10 +1630,10 @@ TextureImporter:
       name: thug3_71
       rect:
         serializedVersion: 2
-        x: 81
-        y: 465
-        width: 13
-        height: 21
+        x: 96
+        y: 496
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1638,10 +1651,10 @@ TextureImporter:
       name: thug3_72
       rect:
         serializedVersion: 2
-        x: 98
-        y: 465
-        width: 13
-        height: 21
+        x: 112
+        y: 496
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1659,10 +1672,10 @@ TextureImporter:
       name: thug3_73
       rect:
         serializedVersion: 2
-        x: 114
-        y: 465
-        width: 13
-        height: 21
+        x: 128
+        y: 496
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1680,10 +1693,10 @@ TextureImporter:
       name: thug3_74
       rect:
         serializedVersion: 2
-        x: 130
-        y: 465
-        width: 13
-        height: 22
+        x: 144
+        y: 496
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1701,10 +1714,10 @@ TextureImporter:
       name: thug3_75
       rect:
         serializedVersion: 2
-        x: 146
-        y: 465
-        width: 13
-        height: 22
+        x: 160
+        y: 496
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1722,10 +1735,10 @@ TextureImporter:
       name: thug3_76
       rect:
         serializedVersion: 2
-        x: 162
-        y: 465
-        width: 13
-        height: 21
+        x: 176
+        y: 496
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1743,10 +1756,10 @@ TextureImporter:
       name: thug3_77
       rect:
         serializedVersion: 2
-        x: 178
-        y: 465
-        width: 13
-        height: 21
+        x: 0
+        y: 464
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1764,10 +1777,10 @@ TextureImporter:
       name: thug3_78
       rect:
         serializedVersion: 2
-        x: 1
-        y: 432
-        width: 15
-        height: 22
+        x: 16
+        y: 464
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1785,10 +1798,10 @@ TextureImporter:
       name: thug3_79
       rect:
         serializedVersion: 2
-        x: 17
-        y: 432
-        width: 15
-        height: 22
+        x: 32
+        y: 464
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1806,10 +1819,10 @@ TextureImporter:
       name: thug3_80
       rect:
         serializedVersion: 2
-        x: 33
-        y: 432
-        width: 15
-        height: 22
+        x: 48
+        y: 464
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1827,10 +1840,10 @@ TextureImporter:
       name: thug3_81
       rect:
         serializedVersion: 2
-        x: 49
-        y: 432
-        width: 15
-        height: 22
+        x: 64
+        y: 464
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1848,10 +1861,10 @@ TextureImporter:
       name: thug3_82
       rect:
         serializedVersion: 2
-        x: 65
-        y: 432
-        width: 15
-        height: 22
+        x: 80
+        y: 464
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1869,10 +1882,10 @@ TextureImporter:
       name: thug3_83
       rect:
         serializedVersion: 2
-        x: 81
-        y: 432
-        width: 15
-        height: 23
+        x: 96
+        y: 464
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1890,10 +1903,10 @@ TextureImporter:
       name: thug3_84
       rect:
         serializedVersion: 2
-        x: 97
-        y: 432
-        width: 15
-        height: 23
+        x: 112
+        y: 464
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1911,10 +1924,10 @@ TextureImporter:
       name: thug3_85
       rect:
         serializedVersion: 2
-        x: 113
-        y: 432
-        width: 15
-        height: 22
+        x: 128
+        y: 464
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1932,10 +1945,10 @@ TextureImporter:
       name: thug3_86
       rect:
         serializedVersion: 2
-        x: 129
-        y: 432
-        width: 15
-        height: 22
+        x: 144
+        y: 464
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1953,10 +1966,10 @@ TextureImporter:
       name: thug3_87
       rect:
         serializedVersion: 2
-        x: 145
-        y: 432
-        width: 15
-        height: 22
+        x: 160
+        y: 464
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1974,10 +1987,10 @@ TextureImporter:
       name: thug3_88
       rect:
         serializedVersion: 2
-        x: 161
-        y: 432
-        width: 15
-        height: 22
+        x: 176
+        y: 464
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1995,10 +2008,10 @@ TextureImporter:
       name: thug3_89
       rect:
         serializedVersion: 2
-        x: 177
+        x: 0
         y: 432
-        width: 15
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2016,10 +2029,10 @@ TextureImporter:
       name: thug3_90
       rect:
         serializedVersion: 2
-        x: 202
+        x: 16
         y: 432
-        width: 22
-        height: 16
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2037,10 +2050,10 @@ TextureImporter:
       name: thug3_91
       rect:
         serializedVersion: 2
-        x: 1
-        y: 400
-        width: 14
-        height: 22
+        x: 32
+        y: 432
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2058,10 +2071,10 @@ TextureImporter:
       name: thug3_92
       rect:
         serializedVersion: 2
-        x: 17
-        y: 400
-        width: 14
-        height: 22
+        x: 48
+        y: 432
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2079,10 +2092,10 @@ TextureImporter:
       name: thug3_93
       rect:
         serializedVersion: 2
-        x: 33
-        y: 400
-        width: 14
-        height: 23
+        x: 64
+        y: 432
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2100,10 +2113,10 @@ TextureImporter:
       name: thug3_94
       rect:
         serializedVersion: 2
-        x: 49
-        y: 400
-        width: 14
-        height: 23
+        x: 80
+        y: 432
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2121,10 +2134,10 @@ TextureImporter:
       name: thug3_95
       rect:
         serializedVersion: 2
-        x: 65
-        y: 400
-        width: 14
-        height: 22
+        x: 96
+        y: 432
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2142,10 +2155,10 @@ TextureImporter:
       name: thug3_96
       rect:
         serializedVersion: 2
-        x: 81
-        y: 400
-        width: 14
-        height: 22
+        x: 112
+        y: 432
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2163,10 +2176,10 @@ TextureImporter:
       name: thug3_97
       rect:
         serializedVersion: 2
-        x: 97
-        y: 400
-        width: 14
-        height: 22
+        x: 128
+        y: 432
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2184,10 +2197,10 @@ TextureImporter:
       name: thug3_98
       rect:
         serializedVersion: 2
-        x: 113
-        y: 400
-        width: 14
-        height: 22
+        x: 144
+        y: 432
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2205,10 +2218,10 @@ TextureImporter:
       name: thug3_99
       rect:
         serializedVersion: 2
-        x: 129
-        y: 400
-        width: 14
-        height: 22
+        x: 160
+        y: 432
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2226,10 +2239,10 @@ TextureImporter:
       name: thug3_100
       rect:
         serializedVersion: 2
-        x: 145
-        y: 400
-        width: 14
-        height: 23
+        x: 176
+        y: 432
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2247,10 +2260,10 @@ TextureImporter:
       name: thug3_101
       rect:
         serializedVersion: 2
-        x: 161
-        y: 400
-        width: 14
-        height: 23
+        x: 192
+        y: 432
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2268,10 +2281,10 @@ TextureImporter:
       name: thug3_102
       rect:
         serializedVersion: 2
-        x: 177
-        y: 400
-        width: 14
-        height: 22
+        x: 208
+        y: 432
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2289,10 +2302,10 @@ TextureImporter:
       name: thug3_103
       rect:
         serializedVersion: 2
-        x: 202
+        x: 0
         y: 400
-        width: 22
-        height: 16
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2310,10 +2323,10 @@ TextureImporter:
       name: thug3_104
       rect:
         serializedVersion: 2
-        x: 227
-        y: 403
-        width: 10
-        height: 7
+        x: 16
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2331,10 +2344,10 @@ TextureImporter:
       name: thug3_105
       rect:
         serializedVersion: 2
-        x: 243
-        y: 403
-        width: 10
-        height: 7
+        x: 32
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2352,10 +2365,10 @@ TextureImporter:
       name: thug3_106
       rect:
         serializedVersion: 2
-        x: 259
-        y: 403
-        width: 10
-        height: 7
+        x: 48
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2373,10 +2386,10 @@ TextureImporter:
       name: thug3_107
       rect:
         serializedVersion: 2
-        x: 275
-        y: 403
-        width: 10
-        height: 7
+        x: 64
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2394,10 +2407,10 @@ TextureImporter:
       name: thug3_108
       rect:
         serializedVersion: 2
-        x: 291
-        y: 403
-        width: 10
-        height: 7
+        x: 80
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2415,10 +2428,10 @@ TextureImporter:
       name: thug3_109
       rect:
         serializedVersion: 2
-        x: 307
-        y: 403
-        width: 10
-        height: 7
+        x: 96
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2436,10 +2449,10 @@ TextureImporter:
       name: thug3_110
       rect:
         serializedVersion: 2
-        x: 323
-        y: 403
-        width: 10
-        height: 7
+        x: 112
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2457,10 +2470,10 @@ TextureImporter:
       name: thug3_111
       rect:
         serializedVersion: 2
-        x: 339
-        y: 403
-        width: 10
-        height: 7
+        x: 128
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2478,10 +2491,10 @@ TextureImporter:
       name: thug3_112
       rect:
         serializedVersion: 2
-        x: 355
-        y: 403
-        width: 10
-        height: 9
+        x: 144
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2499,10 +2512,10 @@ TextureImporter:
       name: thug3_113
       rect:
         serializedVersion: 2
-        x: 371
-        y: 404
-        width: 10
-        height: 9
+        x: 160
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2520,10 +2533,10 @@ TextureImporter:
       name: thug3_114
       rect:
         serializedVersion: 2
-        x: 387
-        y: 403
-        width: 10
-        height: 10
+        x: 176
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2541,10 +2554,10 @@ TextureImporter:
       name: thug3_115
       rect:
         serializedVersion: 2
-        x: 403
-        y: 403
-        width: 10
-        height: 8
+        x: 192
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2562,10 +2575,10 @@ TextureImporter:
       name: thug3_116
       rect:
         serializedVersion: 2
-        x: 1
-        y: 368
-        width: 14
-        height: 22
+        x: 208
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2583,10 +2596,10 @@ TextureImporter:
       name: thug3_117
       rect:
         serializedVersion: 2
-        x: 17
-        y: 369
-        width: 14
-        height: 22
+        x: 224
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2604,10 +2617,10 @@ TextureImporter:
       name: thug3_118
       rect:
         serializedVersion: 2
-        x: 33
-        y: 368
-        width: 14
-        height: 22
+        x: 240
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2625,10 +2638,10 @@ TextureImporter:
       name: thug3_119
       rect:
         serializedVersion: 2
-        x: 49
-        y: 368
-        width: 14
-        height: 22
+        x: 256
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2646,10 +2659,10 @@ TextureImporter:
       name: thug3_120
       rect:
         serializedVersion: 2
-        x: 65
-        y: 369
-        width: 14
-        height: 22
+        x: 272
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2667,10 +2680,10 @@ TextureImporter:
       name: thug3_121
       rect:
         serializedVersion: 2
-        x: 81
-        y: 368
-        width: 14
-        height: 22
+        x: 288
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2688,10 +2701,10 @@ TextureImporter:
       name: thug3_122
       rect:
         serializedVersion: 2
-        x: 96
-        y: 368
-        width: 96
-        height: 23
+        x: 304
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2709,10 +2722,10 @@ TextureImporter:
       name: thug3_123
       rect:
         serializedVersion: 2
-        x: 193
-        y: 368
-        width: 14
-        height: 22
+        x: 320
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2730,10 +2743,10 @@ TextureImporter:
       name: thug3_124
       rect:
         serializedVersion: 2
-        x: 209
-        y: 369
-        width: 14
-        height: 22
+        x: 336
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2751,10 +2764,10 @@ TextureImporter:
       name: thug3_125
       rect:
         serializedVersion: 2
-        x: 225
-        y: 368
-        width: 14
-        height: 22
+        x: 352
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2772,10 +2785,10 @@ TextureImporter:
       name: thug3_126
       rect:
         serializedVersion: 2
-        x: 241
-        y: 368
-        width: 14
-        height: 22
+        x: 368
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2793,10 +2806,10 @@ TextureImporter:
       name: thug3_127
       rect:
         serializedVersion: 2
-        x: 257
-        y: 369
-        width: 14
-        height: 22
+        x: 384
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2814,10 +2827,10 @@ TextureImporter:
       name: thug3_128
       rect:
         serializedVersion: 2
-        x: 273
-        y: 368
-        width: 14
-        height: 22
+        x: 400
+        y: 400
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2835,10 +2848,10 @@ TextureImporter:
       name: thug3_129
       rect:
         serializedVersion: 2
-        x: 289
-        y: 369
-        width: 14
-        height: 22
+        x: 0
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2856,10 +2869,10 @@ TextureImporter:
       name: thug3_130
       rect:
         serializedVersion: 2
-        x: 305
+        x: 16
         y: 368
-        width: 14
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2877,10 +2890,10 @@ TextureImporter:
       name: thug3_131
       rect:
         serializedVersion: 2
-        x: 321
-        y: 369
-        width: 14
-        height: 22
+        x: 32
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2898,10 +2911,10 @@ TextureImporter:
       name: thug3_132
       rect:
         serializedVersion: 2
-        x: 337
-        y: 369
-        width: 14
-        height: 22
+        x: 48
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2919,10 +2932,10 @@ TextureImporter:
       name: thug3_133
       rect:
         serializedVersion: 2
-        x: 353
+        x: 64
         y: 368
-        width: 14
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2940,10 +2953,10 @@ TextureImporter:
       name: thug3_134
       rect:
         serializedVersion: 2
-        x: 369
-        y: 369
-        width: 14
-        height: 22
+        x: 80
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2961,10 +2974,10 @@ TextureImporter:
       name: thug3_135
       rect:
         serializedVersion: 2
-        x: 389
-        y: 372
-        width: 21
-        height: 26
+        x: 96
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2982,10 +2995,10 @@ TextureImporter:
       name: thug3_136
       rect:
         serializedVersion: 2
-        x: 421
-        y: 372
-        width: 21
-        height: 26
+        x: 112
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3003,10 +3016,10 @@ TextureImporter:
       name: thug3_137
       rect:
         serializedVersion: 2
-        x: 453
-        y: 372
-        width: 21
-        height: 26
+        x: 128
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3024,10 +3037,10 @@ TextureImporter:
       name: thug3_138
       rect:
         serializedVersion: 2
-        x: 488
-        y: 372
-        width: 17
-        height: 22
+        x: 144
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3045,10 +3058,10 @@ TextureImporter:
       name: thug3_139
       rect:
         serializedVersion: 2
-        x: 520
-        y: 372
-        width: 17
-        height: 22
+        x: 160
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3066,10 +3079,10 @@ TextureImporter:
       name: thug3_140
       rect:
         serializedVersion: 2
-        x: 552
-        y: 372
-        width: 17
-        height: 22
+        x: 176
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3087,10 +3100,10 @@ TextureImporter:
       name: thug3_141
       rect:
         serializedVersion: 2
-        x: 582
-        y: 372
-        width: 21
-        height: 26
+        x: 192
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3108,10 +3121,10 @@ TextureImporter:
       name: thug3_142
       rect:
         serializedVersion: 2
-        x: 614
-        y: 372
-        width: 21
-        height: 26
+        x: 208
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3129,10 +3142,10 @@ TextureImporter:
       name: thug3_143
       rect:
         serializedVersion: 2
-        x: 646
-        y: 372
-        width: 21
-        height: 26
+        x: 224
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3150,10 +3163,10 @@ TextureImporter:
       name: thug3_144
       rect:
         serializedVersion: 2
-        x: 680
+        x: 240
         y: 368
-        width: 17
-        height: 28
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3171,10 +3184,10 @@ TextureImporter:
       name: thug3_145
       rect:
         serializedVersion: 2
-        x: 712
+        x: 256
         y: 368
-        width: 17
-        height: 28
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3192,10 +3205,10 @@ TextureImporter:
       name: thug3_146
       rect:
         serializedVersion: 2
-        x: 744
+        x: 272
         y: 368
-        width: 17
-        height: 28
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3213,10 +3226,10 @@ TextureImporter:
       name: thug3_147
       rect:
         serializedVersion: 2
-        x: 1
-        y: 336
-        width: 13
-        height: 22
+        x: 288
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3234,10 +3247,10 @@ TextureImporter:
       name: thug3_148
       rect:
         serializedVersion: 2
-        x: 17
-        y: 336
-        width: 13
-        height: 22
+        x: 304
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3255,10 +3268,10 @@ TextureImporter:
       name: thug3_149
       rect:
         serializedVersion: 2
-        x: 33
-        y: 336
-        width: 13
-        height: 21
+        x: 320
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3276,10 +3289,10 @@ TextureImporter:
       name: thug3_150
       rect:
         serializedVersion: 2
-        x: 49
-        y: 336
-        width: 13
-        height: 20
+        x: 336
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3297,10 +3310,10 @@ TextureImporter:
       name: thug3_151
       rect:
         serializedVersion: 2
-        x: 65
-        y: 336
-        width: 13
-        height: 20
+        x: 352
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3318,10 +3331,10 @@ TextureImporter:
       name: thug3_152
       rect:
         serializedVersion: 2
-        x: 81
-        y: 336
-        width: 13
-        height: 21
+        x: 368
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3339,10 +3352,10 @@ TextureImporter:
       name: thug3_153
       rect:
         serializedVersion: 2
-        x: 97
-        y: 336
-        width: 13
-        height: 22
+        x: 384
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3360,10 +3373,10 @@ TextureImporter:
       name: thug3_154
       rect:
         serializedVersion: 2
-        x: 113
-        y: 336
-        width: 13
-        height: 22
+        x: 400
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3381,10 +3394,10 @@ TextureImporter:
       name: thug3_155
       rect:
         serializedVersion: 2
-        x: 129
-        y: 336
-        width: 13
-        height: 22
+        x: 416
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3402,10 +3415,10 @@ TextureImporter:
       name: thug3_156
       rect:
         serializedVersion: 2
-        x: 145
-        y: 336
-        width: 13
-        height: 22
+        x: 432
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3423,10 +3436,10 @@ TextureImporter:
       name: thug3_157
       rect:
         serializedVersion: 2
-        x: 161
-        y: 336
-        width: 13
-        height: 22
+        x: 448
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3444,10 +3457,10 @@ TextureImporter:
       name: thug3_158
       rect:
         serializedVersion: 2
-        x: 177
-        y: 336
-        width: 13
-        height: 22
+        x: 464
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3465,10 +3478,10 @@ TextureImporter:
       name: thug3_159
       rect:
         serializedVersion: 2
-        x: 192
-        y: 336
+        x: 480
+        y: 368
         width: 16
-        height: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3486,10 +3499,10 @@ TextureImporter:
       name: thug3_160
       rect:
         serializedVersion: 2
-        x: 209
-        y: 336
-        width: 15
-        height: 21
+        x: 496
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3507,10 +3520,10 @@ TextureImporter:
       name: thug3_161
       rect:
         serializedVersion: 2
-        x: 225
-        y: 336
-        width: 15
-        height: 20
+        x: 512
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3528,10 +3541,10 @@ TextureImporter:
       name: thug3_162
       rect:
         serializedVersion: 2
-        x: 241
-        y: 336
-        width: 15
-        height: 19
+        x: 528
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3549,10 +3562,10 @@ TextureImporter:
       name: thug3_163
       rect:
         serializedVersion: 2
-        x: 257
-        y: 336
-        width: 15
-        height: 19
+        x: 544
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3570,10 +3583,10 @@ TextureImporter:
       name: thug3_164
       rect:
         serializedVersion: 2
-        x: 273
-        y: 336
-        width: 15
-        height: 20
+        x: 560
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3591,10 +3604,10 @@ TextureImporter:
       name: thug3_165
       rect:
         serializedVersion: 2
-        x: 289
-        y: 336
-        width: 15
-        height: 21
+        x: 576
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3612,10 +3625,10 @@ TextureImporter:
       name: thug3_166
       rect:
         serializedVersion: 2
-        x: 305
-        y: 336
-        width: 15
-        height: 21
+        x: 592
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3633,10 +3646,10 @@ TextureImporter:
       name: thug3_167
       rect:
         serializedVersion: 2
-        x: 321
-        y: 336
-        width: 15
-        height: 21
+        x: 608
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3654,10 +3667,10 @@ TextureImporter:
       name: thug3_168
       rect:
         serializedVersion: 2
-        x: 337
-        y: 336
-        width: 15
-        height: 21
+        x: 624
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3675,10 +3688,10 @@ TextureImporter:
       name: thug3_169
       rect:
         serializedVersion: 2
-        x: 353
-        y: 336
-        width: 31
-        height: 22
+        x: 640
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3696,10 +3709,10 @@ TextureImporter:
       name: thug3_170
       rect:
         serializedVersion: 2
-        x: 386
-        y: 336
-        width: 13
-        height: 22
+        x: 656
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3717,10 +3730,10 @@ TextureImporter:
       name: thug3_171
       rect:
         serializedVersion: 2
-        x: 402
-        y: 336
-        width: 13
-        height: 22
+        x: 672
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3738,10 +3751,10 @@ TextureImporter:
       name: thug3_172
       rect:
         serializedVersion: 2
-        x: 418
-        y: 336
-        width: 13
-        height: 21
+        x: 688
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3759,10 +3772,10 @@ TextureImporter:
       name: thug3_173
       rect:
         serializedVersion: 2
-        x: 434
-        y: 336
-        width: 13
-        height: 20
+        x: 704
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3780,10 +3793,10 @@ TextureImporter:
       name: thug3_174
       rect:
         serializedVersion: 2
-        x: 450
-        y: 336
-        width: 13
-        height: 20
+        x: 720
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3801,10 +3814,10 @@ TextureImporter:
       name: thug3_175
       rect:
         serializedVersion: 2
-        x: 466
-        y: 336
-        width: 13
-        height: 21
+        x: 736
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3822,10 +3835,10 @@ TextureImporter:
       name: thug3_176
       rect:
         serializedVersion: 2
-        x: 482
-        y: 336
-        width: 13
-        height: 22
+        x: 752
+        y: 368
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3843,10 +3856,10 @@ TextureImporter:
       name: thug3_177
       rect:
         serializedVersion: 2
-        x: 498
+        x: 0
         y: 336
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3864,10 +3877,10 @@ TextureImporter:
       name: thug3_178
       rect:
         serializedVersion: 2
-        x: 514
+        x: 16
         y: 336
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3885,10 +3898,10 @@ TextureImporter:
       name: thug3_179
       rect:
         serializedVersion: 2
-        x: 530
+        x: 32
         y: 336
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3906,10 +3919,10 @@ TextureImporter:
       name: thug3_180
       rect:
         serializedVersion: 2
-        x: 546
+        x: 48
         y: 336
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3927,10 +3940,10 @@ TextureImporter:
       name: thug3_181
       rect:
         serializedVersion: 2
-        x: 562
+        x: 64
         y: 336
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3948,10 +3961,10 @@ TextureImporter:
       name: thug3_182
       rect:
         serializedVersion: 2
-        x: 576
+        x: 80
         y: 336
-        width: 31
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3969,10 +3982,10 @@ TextureImporter:
       name: thug3_183
       rect:
         serializedVersion: 2
-        x: 608
+        x: 96
         y: 336
-        width: 15
-        height: 20
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3990,10 +4003,10 @@ TextureImporter:
       name: thug3_184
       rect:
         serializedVersion: 2
-        x: 624
+        x: 112
         y: 336
-        width: 15
-        height: 19
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4011,10 +4024,10 @@ TextureImporter:
       name: thug3_185
       rect:
         serializedVersion: 2
-        x: 640
+        x: 128
         y: 336
-        width: 15
-        height: 19
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4032,10 +4045,10 @@ TextureImporter:
       name: thug3_186
       rect:
         serializedVersion: 2
-        x: 656
+        x: 144
         y: 336
-        width: 15
-        height: 20
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4053,10 +4066,10 @@ TextureImporter:
       name: thug3_187
       rect:
         serializedVersion: 2
-        x: 672
+        x: 160
         y: 336
-        width: 15
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4074,10 +4087,10 @@ TextureImporter:
       name: thug3_188
       rect:
         serializedVersion: 2
-        x: 688
+        x: 176
         y: 336
-        width: 15
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4095,10 +4108,10 @@ TextureImporter:
       name: thug3_189
       rect:
         serializedVersion: 2
-        x: 704
+        x: 192
         y: 336
-        width: 15
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4116,10 +4129,10 @@ TextureImporter:
       name: thug3_190
       rect:
         serializedVersion: 2
-        x: 720
+        x: 208
         y: 336
-        width: 15
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4137,10 +4150,10 @@ TextureImporter:
       name: thug3_191
       rect:
         serializedVersion: 2
-        x: 736
+        x: 224
         y: 336
-        width: 15
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4158,10 +4171,10 @@ TextureImporter:
       name: thug3_192
       rect:
         serializedVersion: 2
-        x: 752
+        x: 240
         y: 336
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4179,10 +4192,10 @@ TextureImporter:
       name: thug3_193
       rect:
         serializedVersion: 2
-        x: 1
-        y: 304
-        width: 13
-        height: 22
+        x: 256
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4200,10 +4213,10 @@ TextureImporter:
       name: thug3_194
       rect:
         serializedVersion: 2
-        x: 17
-        y: 304
-        width: 13
-        height: 22
+        x: 272
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4221,10 +4234,10 @@ TextureImporter:
       name: thug3_195
       rect:
         serializedVersion: 2
-        x: 33
-        y: 304
-        width: 13
-        height: 22
+        x: 288
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4242,10 +4255,10 @@ TextureImporter:
       name: thug3_196
       rect:
         serializedVersion: 2
-        x: 49
-        y: 304
-        width: 13
-        height: 22
+        x: 304
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4263,10 +4276,10 @@ TextureImporter:
       name: thug3_197
       rect:
         serializedVersion: 2
-        x: 65
-        y: 304
-        width: 13
-        height: 22
+        x: 320
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4284,10 +4297,10 @@ TextureImporter:
       name: thug3_198
       rect:
         serializedVersion: 2
-        x: 81
-        y: 304
-        width: 13
-        height: 22
+        x: 336
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4305,10 +4318,10 @@ TextureImporter:
       name: thug3_199
       rect:
         serializedVersion: 2
-        x: 97
-        y: 304
-        width: 14
-        height: 22
+        x: 352
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4326,10 +4339,10 @@ TextureImporter:
       name: thug3_200
       rect:
         serializedVersion: 2
-        x: 113
-        y: 304
-        width: 15
-        height: 22
+        x: 368
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4347,10 +4360,10 @@ TextureImporter:
       name: thug3_201
       rect:
         serializedVersion: 2
-        x: 129
-        y: 304
-        width: 15
-        height: 22
+        x: 384
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4368,10 +4381,10 @@ TextureImporter:
       name: thug3_202
       rect:
         serializedVersion: 2
-        x: 145
-        y: 304
-        width: 13
-        height: 22
+        x: 400
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4389,10 +4402,10 @@ TextureImporter:
       name: thug3_203
       rect:
         serializedVersion: 2
-        x: 160
-        y: 304
-        width: 31
-        height: 22
+        x: 416
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4410,10 +4423,10 @@ TextureImporter:
       name: thug3_204
       rect:
         serializedVersion: 2
-        x: 192
-        y: 304
-        width: 15
-        height: 22
+        x: 432
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4431,10 +4444,10 @@ TextureImporter:
       name: thug3_205
       rect:
         serializedVersion: 2
-        x: 208
-        y: 304
-        width: 15
-        height: 22
+        x: 448
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4452,10 +4465,10 @@ TextureImporter:
       name: thug3_206
       rect:
         serializedVersion: 2
-        x: 224
-        y: 304
-        width: 15
-        height: 22
+        x: 464
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4473,10 +4486,10 @@ TextureImporter:
       name: thug3_207
       rect:
         serializedVersion: 2
-        x: 241
-        y: 304
-        width: 15
-        height: 22
+        x: 480
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4494,10 +4507,10 @@ TextureImporter:
       name: thug3_208
       rect:
         serializedVersion: 2
-        x: 257
-        y: 304
-        width: 14
-        height: 22
+        x: 496
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4515,10 +4528,10 @@ TextureImporter:
       name: thug3_209
       rect:
         serializedVersion: 2
-        x: 273
-        y: 304
-        width: 14
-        height: 22
+        x: 512
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4536,10 +4549,10 @@ TextureImporter:
       name: thug3_210
       rect:
         serializedVersion: 2
-        x: 289
-        y: 304
-        width: 14
-        height: 22
+        x: 528
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4557,10 +4570,10 @@ TextureImporter:
       name: thug3_211
       rect:
         serializedVersion: 2
-        x: 305
-        y: 304
-        width: 14
-        height: 22
+        x: 544
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4578,10 +4591,10 @@ TextureImporter:
       name: thug3_212
       rect:
         serializedVersion: 2
-        x: 322
-        y: 304
-        width: 13
-        height: 22
+        x: 560
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4599,10 +4612,10 @@ TextureImporter:
       name: thug3_213
       rect:
         serializedVersion: 2
-        x: 338
-        y: 304
-        width: 13
-        height: 22
+        x: 576
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4620,10 +4633,10 @@ TextureImporter:
       name: thug3_214
       rect:
         serializedVersion: 2
-        x: 354
-        y: 304
-        width: 13
-        height: 22
+        x: 592
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4641,10 +4654,10 @@ TextureImporter:
       name: thug3_215
       rect:
         serializedVersion: 2
-        x: 370
-        y: 304
-        width: 13
-        height: 22
+        x: 608
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4662,10 +4675,10 @@ TextureImporter:
       name: thug3_216
       rect:
         serializedVersion: 2
-        x: 386
-        y: 304
-        width: 13
-        height: 22
+        x: 624
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4683,10 +4696,10 @@ TextureImporter:
       name: thug3_217
       rect:
         serializedVersion: 2
-        x: 402
-        y: 304
-        width: 13
-        height: 22
+        x: 640
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4704,10 +4717,10 @@ TextureImporter:
       name: thug3_218
       rect:
         serializedVersion: 2
-        x: 417
-        y: 304
-        width: 14
-        height: 22
+        x: 656
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4725,10 +4738,10 @@ TextureImporter:
       name: thug3_219
       rect:
         serializedVersion: 2
-        x: 432
-        y: 304
-        width: 15
-        height: 22
+        x: 672
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4746,10 +4759,10 @@ TextureImporter:
       name: thug3_220
       rect:
         serializedVersion: 2
-        x: 448
-        y: 304
-        width: 15
-        height: 22
+        x: 688
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4767,10 +4780,10 @@ TextureImporter:
       name: thug3_221
       rect:
         serializedVersion: 2
-        x: 466
-        y: 304
-        width: 13
-        height: 22
+        x: 704
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4788,10 +4801,10 @@ TextureImporter:
       name: thug3_222
       rect:
         serializedVersion: 2
-        x: 480
-        y: 304
-        width: 15
-        height: 22
+        x: 720
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4809,10 +4822,10 @@ TextureImporter:
       name: thug3_223
       rect:
         serializedVersion: 2
-        x: 496
-        y: 304
-        width: 15
-        height: 22
+        x: 736
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4830,10 +4843,10 @@ TextureImporter:
       name: thug3_224
       rect:
         serializedVersion: 2
-        x: 512
-        y: 304
-        width: 15
-        height: 22
+        x: 752
+        y: 336
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4851,10 +4864,10 @@ TextureImporter:
       name: thug3_225
       rect:
         serializedVersion: 2
-        x: 528
+        x: 0
         y: 304
-        width: 15
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4872,10 +4885,10 @@ TextureImporter:
       name: thug3_226
       rect:
         serializedVersion: 2
-        x: 545
+        x: 16
         y: 304
-        width: 14
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4893,10 +4906,10 @@ TextureImporter:
       name: thug3_227
       rect:
         serializedVersion: 2
-        x: 561
+        x: 32
         y: 304
-        width: 14
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4914,10 +4927,10 @@ TextureImporter:
       name: thug3_228
       rect:
         serializedVersion: 2
-        x: 577
+        x: 48
         y: 304
-        width: 14
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4935,10 +4948,10 @@ TextureImporter:
       name: thug3_229
       rect:
         serializedVersion: 2
-        x: 593
+        x: 64
         y: 304
-        width: 14
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4956,10 +4969,10 @@ TextureImporter:
       name: thug3_230
       rect:
         serializedVersion: 2
-        x: 609
+        x: 80
         y: 304
-        width: 14
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4977,10 +4990,10 @@ TextureImporter:
       name: thug3_231
       rect:
         serializedVersion: 2
-        x: 625
+        x: 96
         y: 304
-        width: 14
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4998,10 +5011,10 @@ TextureImporter:
       name: thug3_232
       rect:
         serializedVersion: 2
-        x: 708
-        y: 306
-        width: 9
-        height: 12
+        x: 112
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5019,10 +5032,10 @@ TextureImporter:
       name: thug3_233
       rect:
         serializedVersion: 2
-        x: 722
-        y: 306
-        width: 12
-        height: 10
+        x: 128
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5040,10 +5053,10 @@ TextureImporter:
       name: thug3_234
       rect:
         serializedVersion: 2
-        x: 1
-        y: 272
-        width: 13
-        height: 22
+        x: 144
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5061,10 +5074,10 @@ TextureImporter:
       name: thug3_235
       rect:
         serializedVersion: 2
-        x: 17
-        y: 272
-        width: 13
-        height: 22
+        x: 160
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5082,10 +5095,10 @@ TextureImporter:
       name: thug3_236
       rect:
         serializedVersion: 2
-        x: 33
-        y: 272
-        width: 13
-        height: 21
+        x: 176
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5103,10 +5116,10 @@ TextureImporter:
       name: thug3_237
       rect:
         serializedVersion: 2
-        x: 49
-        y: 272
-        width: 13
-        height: 21
+        x: 192
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5124,10 +5137,10 @@ TextureImporter:
       name: thug3_238
       rect:
         serializedVersion: 2
-        x: 65
-        y: 272
-        width: 14
-        height: 21
+        x: 208
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5145,10 +5158,10 @@ TextureImporter:
       name: thug3_239
       rect:
         serializedVersion: 2
-        x: 81
-        y: 272
-        width: 13
-        height: 21
+        x: 224
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5166,10 +5179,10 @@ TextureImporter:
       name: thug3_240
       rect:
         serializedVersion: 2
-        x: 97
-        y: 272
-        width: 13
-        height: 22
+        x: 240
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5187,10 +5200,10 @@ TextureImporter:
       name: thug3_241
       rect:
         serializedVersion: 2
-        x: 113
-        y: 272
-        width: 13
-        height: 22
+        x: 256
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5208,10 +5221,10 @@ TextureImporter:
       name: thug3_242
       rect:
         serializedVersion: 2
-        x: 129
-        y: 272
-        width: 13
-        height: 22
+        x: 272
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5229,10 +5242,10 @@ TextureImporter:
       name: thug3_243
       rect:
         serializedVersion: 2
-        x: 145
-        y: 272
-        width: 13
-        height: 21
+        x: 288
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5250,10 +5263,10 @@ TextureImporter:
       name: thug3_244
       rect:
         serializedVersion: 2
-        x: 161
-        y: 272
-        width: 14
-        height: 21
+        x: 304
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5271,10 +5284,10 @@ TextureImporter:
       name: thug3_245
       rect:
         serializedVersion: 2
-        x: 177
-        y: 272
-        width: 13
-        height: 21
+        x: 320
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5292,10 +5305,10 @@ TextureImporter:
       name: thug3_246
       rect:
         serializedVersion: 2
-        x: 193
-        y: 272
-        width: 13
-        height: 21
+        x: 336
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5313,10 +5326,10 @@ TextureImporter:
       name: thug3_247
       rect:
         serializedVersion: 2
-        x: 209
-        y: 272
-        width: 13
-        height: 22
+        x: 352
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5334,10 +5347,10 @@ TextureImporter:
       name: thug3_248
       rect:
         serializedVersion: 2
-        x: 224
-        y: 272
-        width: 32
-        height: 22
+        x: 368
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5355,10 +5368,10 @@ TextureImporter:
       name: thug3_249
       rect:
         serializedVersion: 2
-        x: 257
-        y: 272
-        width: 14
-        height: 21
+        x: 384
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5376,10 +5389,10 @@ TextureImporter:
       name: thug3_250
       rect:
         serializedVersion: 2
-        x: 273
-        y: 272
-        width: 14
-        height: 20
+        x: 400
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5397,10 +5410,10 @@ TextureImporter:
       name: thug3_251
       rect:
         serializedVersion: 2
-        x: 289
-        y: 272
-        width: 14
-        height: 21
+        x: 416
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5418,10 +5431,10 @@ TextureImporter:
       name: thug3_252
       rect:
         serializedVersion: 2
-        x: 304
-        y: 272
+        x: 432
+        y: 304
         width: 16
-        height: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5439,10 +5452,10 @@ TextureImporter:
       name: thug3_253
       rect:
         serializedVersion: 2
-        x: 321
-        y: 272
-        width: 14
-        height: 21
+        x: 448
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5460,10 +5473,10 @@ TextureImporter:
       name: thug3_254
       rect:
         serializedVersion: 2
-        x: 337
-        y: 272
-        width: 14
-        height: 21
+        x: 464
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5481,10 +5494,10 @@ TextureImporter:
       name: thug3_255
       rect:
         serializedVersion: 2
-        x: 353
-        y: 272
-        width: 14
-        height: 21
+        x: 480
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5502,10 +5515,10 @@ TextureImporter:
       name: thug3_256
       rect:
         serializedVersion: 2
-        x: 368
-        y: 272
+        x: 496
+        y: 304
         width: 16
-        height: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5523,10 +5536,10 @@ TextureImporter:
       name: thug3_257
       rect:
         serializedVersion: 2
-        x: 385
-        y: 272
-        width: 14
-        height: 21
+        x: 512
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5544,10 +5557,10 @@ TextureImporter:
       name: thug3_258
       rect:
         serializedVersion: 2
-        x: 401
-        y: 272
-        width: 14
-        height: 20
+        x: 528
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5565,10 +5578,10 @@ TextureImporter:
       name: thug3_259
       rect:
         serializedVersion: 2
-        x: 417
-        y: 272
-        width: 14
-        height: 21
+        x: 544
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5586,10 +5599,10 @@ TextureImporter:
       name: thug3_260
       rect:
         serializedVersion: 2
-        x: 432
-        y: 272
+        x: 560
+        y: 304
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5607,10 +5620,10 @@ TextureImporter:
       name: thug3_261
       rect:
         serializedVersion: 2
-        x: 450
-        y: 272
-        width: 13
-        height: 22
+        x: 576
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5628,10 +5641,10 @@ TextureImporter:
       name: thug3_262
       rect:
         serializedVersion: 2
-        x: 466
-        y: 272
-        width: 13
-        height: 22
+        x: 592
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5649,10 +5662,10 @@ TextureImporter:
       name: thug3_263
       rect:
         serializedVersion: 2
-        x: 482
-        y: 272
-        width: 13
-        height: 21
+        x: 608
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5670,10 +5683,10 @@ TextureImporter:
       name: thug3_264
       rect:
         serializedVersion: 2
-        x: 498
-        y: 272
-        width: 13
-        height: 21
+        x: 624
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5691,10 +5704,10 @@ TextureImporter:
       name: thug3_265
       rect:
         serializedVersion: 2
-        x: 513
-        y: 272
-        width: 14
-        height: 21
+        x: 704
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5712,10 +5725,10 @@ TextureImporter:
       name: thug3_266
       rect:
         serializedVersion: 2
-        x: 530
-        y: 272
-        width: 13
-        height: 21
+        x: 720
+        y: 304
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5733,10 +5746,10 @@ TextureImporter:
       name: thug3_267
       rect:
         serializedVersion: 2
-        x: 546
+        x: 0
         y: 272
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5754,10 +5767,10 @@ TextureImporter:
       name: thug3_268
       rect:
         serializedVersion: 2
-        x: 562
+        x: 16
         y: 272
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5775,10 +5788,10 @@ TextureImporter:
       name: thug3_269
       rect:
         serializedVersion: 2
-        x: 578
+        x: 32
         y: 272
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5796,10 +5809,10 @@ TextureImporter:
       name: thug3_270
       rect:
         serializedVersion: 2
-        x: 594
+        x: 48
         y: 272
-        width: 13
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5817,10 +5830,10 @@ TextureImporter:
       name: thug3_271
       rect:
         serializedVersion: 2
-        x: 609
+        x: 64
         y: 272
-        width: 14
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5838,10 +5851,10 @@ TextureImporter:
       name: thug3_272
       rect:
         serializedVersion: 2
-        x: 626
+        x: 80
         y: 272
-        width: 13
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5859,10 +5872,10 @@ TextureImporter:
       name: thug3_273
       rect:
         serializedVersion: 2
-        x: 642
+        x: 96
         y: 272
-        width: 13
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5880,10 +5893,10 @@ TextureImporter:
       name: thug3_274
       rect:
         serializedVersion: 2
-        x: 658
+        x: 112
         y: 272
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5901,10 +5914,10 @@ TextureImporter:
       name: thug3_275
       rect:
         serializedVersion: 2
-        x: 672
+        x: 128
         y: 272
-        width: 32
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5922,10 +5935,10 @@ TextureImporter:
       name: thug3_276
       rect:
         serializedVersion: 2
-        x: 705
+        x: 144
         y: 272
-        width: 14
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5943,10 +5956,10 @@ TextureImporter:
       name: thug3_277
       rect:
         serializedVersion: 2
-        x: 721
+        x: 160
         y: 272
-        width: 14
-        height: 20
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5964,10 +5977,10 @@ TextureImporter:
       name: thug3_278
       rect:
         serializedVersion: 2
-        x: 737
+        x: 176
         y: 272
-        width: 14
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5985,10 +5998,10 @@ TextureImporter:
       name: thug3_279
       rect:
         serializedVersion: 2
-        x: 752
+        x: 192
         y: 272
-        width: 80
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6006,10 +6019,10 @@ TextureImporter:
       name: thug3_280
       rect:
         serializedVersion: 2
-        x: 833
+        x: 208
         y: 272
-        width: 14
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6027,10 +6040,10 @@ TextureImporter:
       name: thug3_281
       rect:
         serializedVersion: 2
-        x: 849
+        x: 224
         y: 272
-        width: 14
-        height: 20
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6048,10 +6061,10 @@ TextureImporter:
       name: thug3_282
       rect:
         serializedVersion: 2
-        x: 865
+        x: 240
         y: 272
-        width: 14
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6069,10 +6082,10 @@ TextureImporter:
       name: thug3_283
       rect:
         serializedVersion: 2
-        x: 880
+        x: 256
         y: 272
         width: 16
-        height: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6090,10 +6103,10 @@ TextureImporter:
       name: thug3_284
       rect:
         serializedVersion: 2
-        x: 1
-        y: 240
-        width: 13
-        height: 22
+        x: 272
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6111,10 +6124,10 @@ TextureImporter:
       name: thug3_285
       rect:
         serializedVersion: 2
-        x: 17
-        y: 240
-        width: 13
-        height: 22
+        x: 288
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6132,10 +6145,10 @@ TextureImporter:
       name: thug3_286
       rect:
         serializedVersion: 2
-        x: 33
-        y: 240
-        width: 13
-        height: 21
+        x: 304
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6153,10 +6166,10 @@ TextureImporter:
       name: thug3_287
       rect:
         serializedVersion: 2
-        x: 49
-        y: 240
-        width: 13
-        height: 21
+        x: 320
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6174,10 +6187,10 @@ TextureImporter:
       name: thug3_288
       rect:
         serializedVersion: 2
-        x: 65
-        y: 240
-        width: 14
-        height: 21
+        x: 336
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6195,10 +6208,10 @@ TextureImporter:
       name: thug3_289
       rect:
         serializedVersion: 2
-        x: 81
-        y: 240
-        width: 13
-        height: 21
+        x: 352
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6216,10 +6229,10 @@ TextureImporter:
       name: thug3_290
       rect:
         serializedVersion: 2
-        x: 97
-        y: 240
-        width: 13
-        height: 22
+        x: 368
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6237,10 +6250,10 @@ TextureImporter:
       name: thug3_291
       rect:
         serializedVersion: 2
-        x: 113
-        y: 240
-        width: 13
-        height: 22
+        x: 384
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6258,10 +6271,10 @@ TextureImporter:
       name: thug3_292
       rect:
         serializedVersion: 2
-        x: 129
-        y: 240
-        width: 13
-        height: 22
+        x: 400
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6279,10 +6292,10 @@ TextureImporter:
       name: thug3_293
       rect:
         serializedVersion: 2
-        x: 145
-        y: 240
-        width: 14
-        height: 20
+        x: 416
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6300,10 +6313,10 @@ TextureImporter:
       name: thug3_294
       rect:
         serializedVersion: 2
-        x: 161
-        y: 240
-        width: 14
-        height: 21
+        x: 432
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6321,10 +6334,10 @@ TextureImporter:
       name: thug3_295
       rect:
         serializedVersion: 2
-        x: 177
-        y: 240
-        width: 13
-        height: 21
+        x: 448
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6342,10 +6355,10 @@ TextureImporter:
       name: thug3_296
       rect:
         serializedVersion: 2
-        x: 193
-        y: 240
-        width: 13
-        height: 22
+        x: 464
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6363,10 +6376,10 @@ TextureImporter:
       name: thug3_297
       rect:
         serializedVersion: 2
-        x: 209
-        y: 240
-        width: 13
-        height: 22
+        x: 480
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6384,10 +6397,10 @@ TextureImporter:
       name: thug3_298
       rect:
         serializedVersion: 2
-        x: 224
-        y: 240
-        width: 32
-        height: 22
+        x: 496
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6405,10 +6418,10 @@ TextureImporter:
       name: thug3_299
       rect:
         serializedVersion: 2
-        x: 257
-        y: 240
-        width: 14
-        height: 21
+        x: 512
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6426,10 +6439,10 @@ TextureImporter:
       name: thug3_300
       rect:
         serializedVersion: 2
-        x: 273
-        y: 240
-        width: 14
-        height: 20
+        x: 528
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6447,10 +6460,10 @@ TextureImporter:
       name: thug3_301
       rect:
         serializedVersion: 2
-        x: 289
-        y: 240
-        width: 14
-        height: 21
+        x: 544
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6468,10 +6481,10 @@ TextureImporter:
       name: thug3_302
       rect:
         serializedVersion: 2
-        x: 304
-        y: 240
+        x: 560
+        y: 272
         width: 16
-        height: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6489,10 +6502,10 @@ TextureImporter:
       name: thug3_303
       rect:
         serializedVersion: 2
-        x: 321
-        y: 240
-        width: 14
-        height: 21
+        x: 576
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6510,10 +6523,10 @@ TextureImporter:
       name: thug3_304
       rect:
         serializedVersion: 2
-        x: 337
-        y: 240
-        width: 14
-        height: 21
+        x: 592
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6531,10 +6544,10 @@ TextureImporter:
       name: thug3_305
       rect:
         serializedVersion: 2
-        x: 353
-        y: 240
-        width: 14
-        height: 21
+        x: 608
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6552,10 +6565,10 @@ TextureImporter:
       name: thug3_306
       rect:
         serializedVersion: 2
-        x: 369
-        y: 240
-        width: 14
-        height: 19
+        x: 624
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6573,10 +6586,10 @@ TextureImporter:
       name: thug3_307
       rect:
         serializedVersion: 2
-        x: 385
-        y: 240
-        width: 14
-        height: 20
+        x: 640
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6594,10 +6607,10 @@ TextureImporter:
       name: thug3_308
       rect:
         serializedVersion: 2
-        x: 401
-        y: 240
-        width: 14
-        height: 21
+        x: 656
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6615,10 +6628,10 @@ TextureImporter:
       name: thug3_309
       rect:
         serializedVersion: 2
-        x: 416
-        y: 240
-        width: 32
-        height: 22
+        x: 672
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6636,10 +6649,10 @@ TextureImporter:
       name: thug3_310
       rect:
         serializedVersion: 2
-        x: 450
-        y: 240
-        width: 13
-        height: 22
+        x: 688
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6657,10 +6670,10 @@ TextureImporter:
       name: thug3_311
       rect:
         serializedVersion: 2
-        x: 466
-        y: 240
-        width: 13
-        height: 22
+        x: 704
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6678,10 +6691,10 @@ TextureImporter:
       name: thug3_312
       rect:
         serializedVersion: 2
-        x: 482
-        y: 240
-        width: 13
-        height: 21
+        x: 720
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6699,10 +6712,10 @@ TextureImporter:
       name: thug3_313
       rect:
         serializedVersion: 2
-        x: 498
-        y: 240
-        width: 13
-        height: 21
+        x: 736
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6720,10 +6733,10 @@ TextureImporter:
       name: thug3_314
       rect:
         serializedVersion: 2
-        x: 513
-        y: 240
-        width: 14
-        height: 21
+        x: 752
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6741,10 +6754,10 @@ TextureImporter:
       name: thug3_315
       rect:
         serializedVersion: 2
-        x: 530
-        y: 240
-        width: 13
-        height: 21
+        x: 768
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6762,10 +6775,10 @@ TextureImporter:
       name: thug3_316
       rect:
         serializedVersion: 2
-        x: 546
-        y: 240
-        width: 13
-        height: 22
+        x: 784
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6783,10 +6796,10 @@ TextureImporter:
       name: thug3_317
       rect:
         serializedVersion: 2
-        x: 562
-        y: 240
-        width: 13
-        height: 22
+        x: 800
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6804,10 +6817,10 @@ TextureImporter:
       name: thug3_318
       rect:
         serializedVersion: 2
-        x: 578
-        y: 240
-        width: 13
-        height: 22
+        x: 816
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6825,10 +6838,10 @@ TextureImporter:
       name: thug3_319
       rect:
         serializedVersion: 2
-        x: 593
-        y: 240
-        width: 14
-        height: 20
+        x: 832
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6846,10 +6859,10 @@ TextureImporter:
       name: thug3_320
       rect:
         serializedVersion: 2
-        x: 609
-        y: 240
-        width: 14
-        height: 21
+        x: 848
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6867,10 +6880,10 @@ TextureImporter:
       name: thug3_321
       rect:
         serializedVersion: 2
-        x: 626
-        y: 240
-        width: 13
-        height: 21
+        x: 864
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6888,10 +6901,10 @@ TextureImporter:
       name: thug3_322
       rect:
         serializedVersion: 2
-        x: 642
-        y: 240
-        width: 13
-        height: 22
+        x: 880
+        y: 272
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6909,10 +6922,10 @@ TextureImporter:
       name: thug3_323
       rect:
         serializedVersion: 2
-        x: 658
+        x: 0
         y: 240
-        width: 13
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6930,10 +6943,10 @@ TextureImporter:
       name: thug3_324
       rect:
         serializedVersion: 2
-        x: 672
+        x: 16
         y: 240
-        width: 32
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6951,10 +6964,10 @@ TextureImporter:
       name: thug3_325
       rect:
         serializedVersion: 2
-        x: 705
+        x: 32
         y: 240
-        width: 14
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6972,10 +6985,10 @@ TextureImporter:
       name: thug3_326
       rect:
         serializedVersion: 2
-        x: 721
+        x: 48
         y: 240
-        width: 14
-        height: 20
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6993,10 +7006,10 @@ TextureImporter:
       name: thug3_327
       rect:
         serializedVersion: 2
-        x: 737
+        x: 64
         y: 240
-        width: 14
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7014,10 +7027,10 @@ TextureImporter:
       name: thug3_328
       rect:
         serializedVersion: 2
-        x: 752
+        x: 80
         y: 240
-        width: 64
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7035,10 +7048,10 @@ TextureImporter:
       name: thug3_329
       rect:
         serializedVersion: 2
-        x: 817
+        x: 96
         y: 240
-        width: 14
-        height: 20
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7056,10 +7069,10 @@ TextureImporter:
       name: thug3_330
       rect:
         serializedVersion: 2
-        x: 833
+        x: 112
         y: 240
-        width: 14
-        height: 20
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7077,10 +7090,10 @@ TextureImporter:
       name: thug3_331
       rect:
         serializedVersion: 2
-        x: 849
+        x: 128
         y: 240
-        width: 14
-        height: 21
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7098,10 +7111,10 @@ TextureImporter:
       name: thug3_332
       rect:
         serializedVersion: 2
-        x: 864
+        x: 144
         y: 240
-        width: 32
-        height: 22
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7119,10 +7132,10 @@ TextureImporter:
       name: thug3_333
       rect:
         serializedVersion: 2
-        x: 1
-        y: 208
-        width: 13
-        height: 22
+        x: 160
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7140,10 +7153,10 @@ TextureImporter:
       name: thug3_334
       rect:
         serializedVersion: 2
-        x: 17
-        y: 208
-        width: 13
-        height: 22
+        x: 176
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7161,10 +7174,10 @@ TextureImporter:
       name: thug3_335
       rect:
         serializedVersion: 2
-        x: 33
-        y: 208
-        width: 13
-        height: 21
+        x: 192
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7182,10 +7195,10 @@ TextureImporter:
       name: thug3_336
       rect:
         serializedVersion: 2
-        x: 49
-        y: 208
-        width: 15
-        height: 22
+        x: 208
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7203,10 +7216,10 @@ TextureImporter:
       name: thug3_337
       rect:
         serializedVersion: 2
-        x: 65
-        y: 208
-        width: 15
-        height: 22
+        x: 224
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7224,10 +7237,10 @@ TextureImporter:
       name: thug3_338
       rect:
         serializedVersion: 2
-        x: 81
-        y: 208
-        width: 13
-        height: 22
+        x: 240
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7245,10 +7258,10 @@ TextureImporter:
       name: thug3_339
       rect:
         serializedVersion: 2
-        x: 96
-        y: 208
-        width: 79
-        height: 22
+        x: 256
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7266,10 +7279,10 @@ TextureImporter:
       name: thug3_340
       rect:
         serializedVersion: 2
-        x: 176
-        y: 208
+        x: 272
+        y: 240
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7287,10 +7300,10 @@ TextureImporter:
       name: thug3_341
       rect:
         serializedVersion: 2
-        x: 194
-        y: 208
-        width: 13
-        height: 22
+        x: 288
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7308,10 +7321,10 @@ TextureImporter:
       name: thug3_342
       rect:
         serializedVersion: 2
-        x: 210
-        y: 208
-        width: 13
-        height: 22
+        x: 304
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7329,10 +7342,10 @@ TextureImporter:
       name: thug3_343
       rect:
         serializedVersion: 2
-        x: 226
-        y: 208
-        width: 13
-        height: 21
+        x: 320
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7350,10 +7363,10 @@ TextureImporter:
       name: thug3_344
       rect:
         serializedVersion: 2
-        x: 240
-        y: 208
-        width: 15
-        height: 22
+        x: 336
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7371,10 +7384,10 @@ TextureImporter:
       name: thug3_345
       rect:
         serializedVersion: 2
-        x: 256
-        y: 208
-        width: 15
-        height: 22
+        x: 352
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7392,10 +7405,10 @@ TextureImporter:
       name: thug3_346
       rect:
         serializedVersion: 2
-        x: 274
-        y: 208
-        width: 13
-        height: 22
+        x: 368
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7413,10 +7426,10 @@ TextureImporter:
       name: thug3_347
       rect:
         serializedVersion: 2
-        x: 288
-        y: 208
-        width: 63
-        height: 22
+        x: 384
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7434,10 +7447,10 @@ TextureImporter:
       name: thug3_348
       rect:
         serializedVersion: 2
-        x: 352
-        y: 208
-        width: 15
-        height: 22
+        x: 400
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7455,10 +7468,10 @@ TextureImporter:
       name: thug3_349
       rect:
         serializedVersion: 2
-        x: 368
-        y: 208
-        width: 15
-        height: 22
+        x: 416
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7476,10 +7489,10 @@ TextureImporter:
       name: thug3_350
       rect:
         serializedVersion: 2
-        x: 1
-        y: 176
-        width: 13
-        height: 22
+        x: 432
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7497,10 +7510,10 @@ TextureImporter:
       name: thug3_351
       rect:
         serializedVersion: 2
-        x: 17
-        y: 176
-        width: 13
-        height: 22
+        x: 448
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7518,10 +7531,10 @@ TextureImporter:
       name: thug3_352
       rect:
         serializedVersion: 2
-        x: 33
-        y: 176
-        width: 13
-        height: 21
+        x: 464
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7539,10 +7552,10 @@ TextureImporter:
       name: thug3_353
       rect:
         serializedVersion: 2
-        x: 49
-        y: 176
-        width: 15
-        height: 22
+        x: 480
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7560,10 +7573,10 @@ TextureImporter:
       name: thug3_354
       rect:
         serializedVersion: 2
-        x: 65
-        y: 176
-        width: 13
-        height: 22
+        x: 496
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7581,10 +7594,10 @@ TextureImporter:
       name: thug3_355
       rect:
         serializedVersion: 2
-        x: 81
-        y: 176
-        width: 13
-        height: 22
+        x: 512
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7602,10 +7615,10 @@ TextureImporter:
       name: thug3_356
       rect:
         serializedVersion: 2
-        x: 96
-        y: 176
-        width: 47
-        height: 22
+        x: 528
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7623,10 +7636,10 @@ TextureImporter:
       name: thug3_357
       rect:
         serializedVersion: 2
-        x: 145
-        y: 176
-        width: 14
-        height: 22
+        x: 544
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7644,10 +7657,10 @@ TextureImporter:
       name: thug3_358
       rect:
         serializedVersion: 2
-        x: 160
-        y: 176
-        width: 15
-        height: 22
+        x: 560
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7665,10 +7678,10 @@ TextureImporter:
       name: thug3_359
       rect:
         serializedVersion: 2
-        x: 176
-        y: 176
+        x: 576
+        y: 240
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7686,10 +7699,10 @@ TextureImporter:
       name: thug3_360
       rect:
         serializedVersion: 2
-        x: 194
-        y: 176
-        width: 13
-        height: 22
+        x: 592
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7707,10 +7720,10 @@ TextureImporter:
       name: thug3_361
       rect:
         serializedVersion: 2
-        x: 210
-        y: 176
-        width: 13
-        height: 22
+        x: 608
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7728,10 +7741,10 @@ TextureImporter:
       name: thug3_362
       rect:
         serializedVersion: 2
-        x: 226
-        y: 176
-        width: 13
-        height: 21
+        x: 624
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7749,10 +7762,10 @@ TextureImporter:
       name: thug3_363
       rect:
         serializedVersion: 2
-        x: 240
-        y: 176
-        width: 15
-        height: 22
+        x: 640
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7770,10 +7783,10 @@ TextureImporter:
       name: thug3_364
       rect:
         serializedVersion: 2
-        x: 258
-        y: 176
-        width: 13
-        height: 22
+        x: 656
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7791,10 +7804,10 @@ TextureImporter:
       name: thug3_365
       rect:
         serializedVersion: 2
-        x: 274
-        y: 176
-        width: 13
-        height: 22
+        x: 672
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7812,10 +7825,10 @@ TextureImporter:
       name: thug3_366
       rect:
         serializedVersion: 2
-        x: 288
-        y: 176
-        width: 47
-        height: 22
+        x: 688
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7833,10 +7846,10 @@ TextureImporter:
       name: thug3_367
       rect:
         serializedVersion: 2
-        x: 337
-        y: 176
-        width: 14
-        height: 22
+        x: 704
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7854,10 +7867,10 @@ TextureImporter:
       name: thug3_368
       rect:
         serializedVersion: 2
-        x: 352
-        y: 176
-        width: 15
-        height: 22
+        x: 720
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7875,10 +7888,10 @@ TextureImporter:
       name: thug3_369
       rect:
         serializedVersion: 2
-        x: 368
-        y: 176
-        width: 15
-        height: 22
+        x: 736
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7896,10 +7909,10 @@ TextureImporter:
       name: thug3_370
       rect:
         serializedVersion: 2
-        x: 1
-        y: 144
-        width: 13
-        height: 22
+        x: 752
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7917,10 +7930,10 @@ TextureImporter:
       name: thug3_371
       rect:
         serializedVersion: 2
-        x: 17
-        y: 144
-        width: 13
-        height: 22
+        x: 768
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7938,10 +7951,10 @@ TextureImporter:
       name: thug3_372
       rect:
         serializedVersion: 2
-        x: 33
-        y: 144
-        width: 13
-        height: 21
+        x: 784
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7959,10 +7972,10 @@ TextureImporter:
       name: thug3_373
       rect:
         serializedVersion: 2
-        x: 49
-        y: 144
-        width: 15
-        height: 22
+        x: 800
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7980,10 +7993,10 @@ TextureImporter:
       name: thug3_374
       rect:
         serializedVersion: 2
-        x: 65
-        y: 144
-        width: 15
-        height: 22
+        x: 816
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8001,10 +8014,10 @@ TextureImporter:
       name: thug3_375
       rect:
         serializedVersion: 2
-        x: 81
-        y: 144
-        width: 13
-        height: 22
+        x: 832
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8022,10 +8035,10 @@ TextureImporter:
       name: thug3_376
       rect:
         serializedVersion: 2
-        x: 96
-        y: 144
-        width: 48
-        height: 22
+        x: 848
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8043,10 +8056,10 @@ TextureImporter:
       name: thug3_377
       rect:
         serializedVersion: 2
-        x: 144
-        y: 144
-        width: 15
-        height: 22
+        x: 864
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8064,10 +8077,10 @@ TextureImporter:
       name: thug3_378
       rect:
         serializedVersion: 2
-        x: 160
-        y: 144
-        width: 15
-        height: 22
+        x: 880
+        y: 240
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8085,10 +8098,10 @@ TextureImporter:
       name: thug3_379
       rect:
         serializedVersion: 2
-        x: 176
-        y: 144
+        x: 0
+        y: 208
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8106,10 +8119,10 @@ TextureImporter:
       name: thug3_380
       rect:
         serializedVersion: 2
-        x: 194
-        y: 144
-        width: 13
-        height: 22
+        x: 16
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8127,10 +8140,10 @@ TextureImporter:
       name: thug3_381
       rect:
         serializedVersion: 2
-        x: 210
-        y: 144
-        width: 13
-        height: 22
+        x: 32
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8148,10 +8161,10 @@ TextureImporter:
       name: thug3_382
       rect:
         serializedVersion: 2
-        x: 226
-        y: 144
-        width: 13
-        height: 21
+        x: 48
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8169,10 +8182,10 @@ TextureImporter:
       name: thug3_383
       rect:
         serializedVersion: 2
-        x: 240
-        y: 144
-        width: 15
-        height: 22
+        x: 64
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8190,10 +8203,10 @@ TextureImporter:
       name: thug3_384
       rect:
         serializedVersion: 2
-        x: 256
-        y: 144
-        width: 15
-        height: 22
+        x: 80
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8211,10 +8224,10 @@ TextureImporter:
       name: thug3_385
       rect:
         serializedVersion: 2
-        x: 274
-        y: 144
-        width: 13
-        height: 22
+        x: 96
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8232,10 +8245,10 @@ TextureImporter:
       name: thug3_386
       rect:
         serializedVersion: 2
-        x: 288
-        y: 144
-        width: 63
-        height: 22
+        x: 112
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8253,10 +8266,10 @@ TextureImporter:
       name: thug3_387
       rect:
         serializedVersion: 2
-        x: 352
-        y: 144
-        width: 15
-        height: 22
+        x: 128
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8274,10 +8287,10 @@ TextureImporter:
       name: thug3_388
       rect:
         serializedVersion: 2
-        x: 368
-        y: 144
-        width: 15
-        height: 22
+        x: 144
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8295,10 +8308,10 @@ TextureImporter:
       name: thug3_389
       rect:
         serializedVersion: 2
-        x: 442
-        y: 146
-        width: 19
-        height: 10
+        x: 160
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8316,10 +8329,10 @@ TextureImporter:
       name: thug3_390
       rect:
         serializedVersion: 2
-        x: 472
-        y: 145
-        width: 72
-        height: 9
+        x: 176
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8337,10 +8350,10 @@ TextureImporter:
       name: thug3_391
       rect:
         serializedVersion: 2
-        x: 558
-        y: 146
-        width: 28
-        height: 9
+        x: 192
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8358,10 +8371,10 @@ TextureImporter:
       name: thug3_392
       rect:
         serializedVersion: 2
-        x: 624
-        y: 146
-        width: 21
-        height: 10
+        x: 208
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8379,10 +8392,10 @@ TextureImporter:
       name: thug3_393
       rect:
         serializedVersion: 2
-        x: 660
-        y: 148
-        width: 4
-        height: 4
+        x: 224
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8400,10 +8413,10 @@ TextureImporter:
       name: thug3_394
       rect:
         serializedVersion: 2
-        x: 685
-        y: 144
-        width: 60
-        height: 11
+        x: 240
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8421,10 +8434,10 @@ TextureImporter:
       name: thug3_395
       rect:
         serializedVersion: 2
-        x: 761
-        y: 150
-        width: 4
-        height: 5
+        x: 256
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8442,10 +8455,10 @@ TextureImporter:
       name: thug3_396
       rect:
         serializedVersion: 2
-        x: 390
-        y: 146
-        width: 4
-        height: 4
+        x: 272
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8463,10 +8476,10 @@ TextureImporter:
       name: thug3_397
       rect:
         serializedVersion: 2
-        x: 405
-        y: 146
-        width: 4
-        height: 4
+        x: 288
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8484,10 +8497,10 @@ TextureImporter:
       name: thug3_398
       rect:
         serializedVersion: 2
-        x: 421
-        y: 145
-        width: 4
-        height: 4
+        x: 304
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8505,10 +8518,10 @@ TextureImporter:
       name: thug3_399
       rect:
         serializedVersion: 2
-        x: 599
-        y: 146
-        width: 4
-        height: 4
+        x: 320
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8526,10 +8539,10 @@ TextureImporter:
       name: thug3_400
       rect:
         serializedVersion: 2
-        x: 615
-        y: 145
-        width: 4
-        height: 4
+        x: 336
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8547,10 +8560,10 @@ TextureImporter:
       name: thug3_401
       rect:
         serializedVersion: 2
-        x: 1
-        y: 112
-        width: 13
-        height: 22
+        x: 352
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8568,10 +8581,10 @@ TextureImporter:
       name: thug3_402
       rect:
         serializedVersion: 2
-        x: 17
-        y: 112
-        width: 13
-        height: 22
+        x: 368
+        y: 208
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8589,10 +8602,10 @@ TextureImporter:
       name: thug3_403
       rect:
         serializedVersion: 2
-        x: 33
-        y: 112
-        width: 13
-        height: 22
+        x: 0
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8610,10 +8623,10 @@ TextureImporter:
       name: thug3_404
       rect:
         serializedVersion: 2
-        x: 49
-        y: 112
-        width: 13
-        height: 22
+        x: 16
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8631,10 +8644,10 @@ TextureImporter:
       name: thug3_405
       rect:
         serializedVersion: 2
-        x: 64
-        y: 112
+        x: 32
+        y: 176
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8652,10 +8665,10 @@ TextureImporter:
       name: thug3_406
       rect:
         serializedVersion: 2
-        x: 81
-        y: 112
-        width: 14
-        height: 22
+        x: 48
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8673,10 +8686,10 @@ TextureImporter:
       name: thug3_407
       rect:
         serializedVersion: 2
-        x: 97
-        y: 112
-        width: 14
-        height: 22
+        x: 64
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8694,10 +8707,10 @@ TextureImporter:
       name: thug3_408
       rect:
         serializedVersion: 2
-        x: 112
-        y: 112
+        x: 80
+        y: 176
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8715,10 +8728,10 @@ TextureImporter:
       name: thug3_409
       rect:
         serializedVersion: 2
-        x: 130
-        y: 112
-        width: 13
-        height: 22
+        x: 96
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8736,10 +8749,10 @@ TextureImporter:
       name: thug3_410
       rect:
         serializedVersion: 2
-        x: 146
-        y: 112
-        width: 13
-        height: 22
+        x: 112
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8757,10 +8770,10 @@ TextureImporter:
       name: thug3_411
       rect:
         serializedVersion: 2
-        x: 162
-        y: 112
-        width: 13
-        height: 22
+        x: 128
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8778,10 +8791,10 @@ TextureImporter:
       name: thug3_412
       rect:
         serializedVersion: 2
-        x: 178
-        y: 112
-        width: 13
-        height: 22
+        x: 144
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8799,10 +8812,10 @@ TextureImporter:
       name: thug3_413
       rect:
         serializedVersion: 2
-        x: 192
-        y: 112
+        x: 160
+        y: 176
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8820,10 +8833,10 @@ TextureImporter:
       name: thug3_414
       rect:
         serializedVersion: 2
-        x: 209
-        y: 112
-        width: 14
-        height: 22
+        x: 176
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8841,10 +8854,10 @@ TextureImporter:
       name: thug3_415
       rect:
         serializedVersion: 2
-        x: 225
-        y: 112
-        width: 14
-        height: 22
+        x: 192
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8862,10 +8875,10 @@ TextureImporter:
       name: thug3_416
       rect:
         serializedVersion: 2
-        x: 240
-        y: 112
+        x: 208
+        y: 176
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8883,10 +8896,10 @@ TextureImporter:
       name: thug3_417
       rect:
         serializedVersion: 2
-        x: 1
-        y: 80
-        width: 15
-        height: 22
+        x: 224
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8904,10 +8917,10 @@ TextureImporter:
       name: thug3_418
       rect:
         serializedVersion: 2
-        x: 17
-        y: 80
-        width: 15
-        height: 22
+        x: 240
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8925,10 +8938,10 @@ TextureImporter:
       name: thug3_419
       rect:
         serializedVersion: 2
-        x: 33
-        y: 80
-        width: 15
-        height: 23
+        x: 256
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8946,10 +8959,10 @@ TextureImporter:
       name: thug3_420
       rect:
         serializedVersion: 2
-        x: 49
-        y: 80
-        width: 15
-        height: 23
+        x: 272
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8967,10 +8980,10 @@ TextureImporter:
       name: thug3_421
       rect:
         serializedVersion: 2
-        x: 65
-        y: 80
-        width: 15
-        height: 22
+        x: 288
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8988,10 +9001,10 @@ TextureImporter:
       name: thug3_422
       rect:
         serializedVersion: 2
-        x: 81
-        y: 80
-        width: 15
-        height: 22
+        x: 304
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9009,10 +9022,10 @@ TextureImporter:
       name: thug3_423
       rect:
         serializedVersion: 2
-        x: 97
-        y: 80
-        width: 14
-        height: 22
+        x: 320
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9030,10 +9043,10 @@ TextureImporter:
       name: thug3_424
       rect:
         serializedVersion: 2
-        x: 113
-        y: 80
-        width: 14
-        height: 22
+        x: 336
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9051,10 +9064,10 @@ TextureImporter:
       name: thug3_425
       rect:
         serializedVersion: 2
-        x: 129
-        y: 80
-        width: 14
-        height: 23
+        x: 352
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9072,10 +9085,10 @@ TextureImporter:
       name: thug3_426
       rect:
         serializedVersion: 2
-        x: 145
-        y: 80
-        width: 14
-        height: 23
+        x: 368
+        y: 176
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9093,10 +9106,10 @@ TextureImporter:
       name: thug3_427
       rect:
         serializedVersion: 2
-        x: 161
-        y: 80
-        width: 14
-        height: 22
+        x: 0
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9114,10 +9127,10 @@ TextureImporter:
       name: thug3_428
       rect:
         serializedVersion: 2
-        x: 177
-        y: 80
-        width: 14
-        height: 22
+        x: 16
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9135,10 +9148,10 @@ TextureImporter:
       name: thug3_429
       rect:
         serializedVersion: 2
-        x: 192
-        y: 80
-        width: 15
-        height: 22
+        x: 32
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9156,10 +9169,10 @@ TextureImporter:
       name: thug3_430
       rect:
         serializedVersion: 2
-        x: 208
-        y: 80
-        width: 15
-        height: 22
+        x: 48
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9177,10 +9190,10 @@ TextureImporter:
       name: thug3_431
       rect:
         serializedVersion: 2
-        x: 224
-        y: 80
-        width: 15
-        height: 23
+        x: 64
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9198,10 +9211,10 @@ TextureImporter:
       name: thug3_432
       rect:
         serializedVersion: 2
-        x: 240
-        y: 80
-        width: 15
-        height: 23
+        x: 80
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9219,10 +9232,10 @@ TextureImporter:
       name: thug3_433
       rect:
         serializedVersion: 2
-        x: 256
-        y: 80
-        width: 15
-        height: 22
+        x: 96
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9240,10 +9253,10 @@ TextureImporter:
       name: thug3_434
       rect:
         serializedVersion: 2
-        x: 272
-        y: 80
-        width: 15
-        height: 22
+        x: 112
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9261,10 +9274,10 @@ TextureImporter:
       name: thug3_435
       rect:
         serializedVersion: 2
-        x: 289
-        y: 80
-        width: 14
-        height: 22
+        x: 128
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9282,10 +9295,10 @@ TextureImporter:
       name: thug3_436
       rect:
         serializedVersion: 2
-        x: 305
-        y: 80
-        width: 14
-        height: 22
+        x: 144
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9303,10 +9316,10 @@ TextureImporter:
       name: thug3_437
       rect:
         serializedVersion: 2
-        x: 321
-        y: 80
-        width: 14
-        height: 23
+        x: 160
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9324,10 +9337,10 @@ TextureImporter:
       name: thug3_438
       rect:
         serializedVersion: 2
-        x: 337
-        y: 80
-        width: 14
-        height: 23
+        x: 176
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9345,10 +9358,10 @@ TextureImporter:
       name: thug3_439
       rect:
         serializedVersion: 2
-        x: 353
-        y: 80
-        width: 14
-        height: 22
+        x: 192
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9366,10 +9379,10 @@ TextureImporter:
       name: thug3_440
       rect:
         serializedVersion: 2
-        x: 369
-        y: 80
-        width: 14
-        height: 22
+        x: 208
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9387,10 +9400,10 @@ TextureImporter:
       name: thug3_441
       rect:
         serializedVersion: 2
-        x: 1
-        y: 48
-        width: 15
-        height: 22
+        x: 224
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9408,10 +9421,10 @@ TextureImporter:
       name: thug3_442
       rect:
         serializedVersion: 2
-        x: 17
-        y: 48
-        width: 15
-        height: 22
+        x: 240
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9429,10 +9442,10 @@ TextureImporter:
       name: thug3_443
       rect:
         serializedVersion: 2
-        x: 33
-        y: 48
-        width: 15
-        height: 22
+        x: 256
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9450,10 +9463,10 @@ TextureImporter:
       name: thug3_444
       rect:
         serializedVersion: 2
-        x: 49
-        y: 48
-        width: 14
-        height: 22
+        x: 272
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9471,10 +9484,10 @@ TextureImporter:
       name: thug3_445
       rect:
         serializedVersion: 2
-        x: 65
-        y: 48
-        width: 14
-        height: 22
+        x: 288
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9492,10 +9505,10 @@ TextureImporter:
       name: thug3_446
       rect:
         serializedVersion: 2
-        x: 81
-        y: 48
-        width: 14
-        height: 22
+        x: 304
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9513,10 +9526,10 @@ TextureImporter:
       name: thug3_447
       rect:
         serializedVersion: 2
-        x: 96
-        y: 48
-        width: 15
-        height: 22
+        x: 320
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9534,10 +9547,10 @@ TextureImporter:
       name: thug3_448
       rect:
         serializedVersion: 2
-        x: 112
-        y: 48
-        width: 15
-        height: 22
+        x: 336
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9555,10 +9568,10 @@ TextureImporter:
       name: thug3_449
       rect:
         serializedVersion: 2
-        x: 128
-        y: 48
-        width: 15
-        height: 22
+        x: 352
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9576,10 +9589,10 @@ TextureImporter:
       name: thug3_450
       rect:
         serializedVersion: 2
-        x: 145
-        y: 48
-        width: 14
-        height: 22
+        x: 368
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9597,10 +9610,10 @@ TextureImporter:
       name: thug3_451
       rect:
         serializedVersion: 2
-        x: 161
-        y: 48
-        width: 14
-        height: 22
+        x: 384
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9618,10 +9631,10 @@ TextureImporter:
       name: thug3_452
       rect:
         serializedVersion: 2
-        x: 177
-        y: 48
-        width: 24
-        height: 22
+        x: 400
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9639,10 +9652,10 @@ TextureImporter:
       name: thug3_453
       rect:
         serializedVersion: 2
-        x: 1
-        y: 16
-        width: 13
-        height: 22
+        x: 416
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9660,10 +9673,10 @@ TextureImporter:
       name: thug3_454
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 14
-        height: 21
+        x: 432
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9681,10 +9694,10 @@ TextureImporter:
       name: thug3_455
       rect:
         serializedVersion: 2
-        x: 33
-        y: 16
-        width: 13
-        height: 22
+        x: 448
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9702,10 +9715,10 @@ TextureImporter:
       name: thug3_456
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
+        x: 464
+        y: 144
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9723,10 +9736,10 @@ TextureImporter:
       name: thug3_457
       rect:
         serializedVersion: 2
-        x: 65
-        y: 16
-        width: 14
-        height: 21
+        x: 480
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9744,10 +9757,10 @@ TextureImporter:
       name: thug3_458
       rect:
         serializedVersion: 2
-        x: 80
-        y: 16
+        x: 496
+        y: 144
         width: 16
-        height: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9765,10 +9778,10 @@ TextureImporter:
       name: thug3_459
       rect:
         serializedVersion: 2
-        x: 98
-        y: 16
-        width: 13
-        height: 22
+        x: 512
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9786,10 +9799,10 @@ TextureImporter:
       name: thug3_460
       rect:
         serializedVersion: 2
-        x: 114
-        y: 16
-        width: 14
-        height: 21
+        x: 528
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9807,10 +9820,10 @@ TextureImporter:
       name: thug3_461
       rect:
         serializedVersion: 2
-        x: 130
-        y: 16
-        width: 13
-        height: 22
+        x: 544
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9828,10 +9841,10 @@ TextureImporter:
       name: thug3_462
       rect:
         serializedVersion: 2
-        x: 144
-        y: 16
-        width: 48
-        height: 22
+        x: 560
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9849,10 +9862,10 @@ TextureImporter:
       name: thug3_463
       rect:
         serializedVersion: 2
-        x: 194
-        y: 23
-        width: 8
-        height: 5
+        x: 576
+        y: 144
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9862,6 +9875,1623 @@ TextureImporter:
       bones: []
       spriteID: f2a02fdba1a02a44ebd50ffdbdcc5060
       internalID: 101109636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_464
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56a09f1a19fa524bb97eb1d6b84b715
+      internalID: 9275002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_465
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f8aa0cbac40334b9995f7c4109fde2
+      internalID: 1653697497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_466
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65ffc726a2a5124094c4a7009d3d766
+      internalID: 53573773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_467
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482a53a646f3e114badabac6b99dae20
+      internalID: 608437476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_468
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5528bafb37ea246a279fa9ef39ad29
+      internalID: -1008313800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_469
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0629898a08fab5347a62aa04ffc81ad3
+      internalID: 1764791780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_470
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe904d084ee04544900e943a6be9785
+      internalID: 1961563254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_471
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c291b083831a22e48989ee27ec4e8879
+      internalID: -1369846670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_472
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8a86666c85909488820b58dc39f665
+      internalID: -73557180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_473
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b0231caefbb384aa22eb41c52877bf
+      internalID: 559975954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_474
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41f0177e2ab4f04c9784e6a499c75e1
+      internalID: 522020393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_475
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652aaf226e561f24aa9281a169af1501
+      internalID: -1558954020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_476
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea7a6fc426716d4e93ee55826b95997
+      internalID: -1438393970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_477
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d396685c548a7744691386739003d961
+      internalID: 1428640123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_478
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0369da0f6b374b64fa58e838294269aa
+      internalID: -433684417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_479
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0031c41ac1e5a44d8960946d42f9163
+      internalID: 718805626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_480
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3615781facee94246896cd4f204686e6
+      internalID: -510024543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_481
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f97e05c5dbc5ef479fd5e042debdadb
+      internalID: 28709606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_482
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79767564037cd1e4bbb08eb202e187fe
+      internalID: 1895611700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_483
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f3c80688bfdb642889c4814fa365f6
+      internalID: 1852226249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_484
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ca7cf12ee567f44906de8ea8c2aa2a
+      internalID: 1372338357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_485
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2f115bf998fc143982a123ac33a492
+      internalID: -1085058144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_486
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3694596a2b7e7a041879742ba172ad64
+      internalID: 942925802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_487
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9257471db869a144aaf0d8a742a17703
+      internalID: -793272040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_488
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfc965bf71fa9645942aba5ef03f2fa
+      internalID: -1432486148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_489
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75877ab2e5e63184c9f938659aa31fc8
+      internalID: -1663268256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_490
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdefd93341149d24182e3c177a535dbc
+      internalID: -690943215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_491
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69b377470af7b54baa3933206a4afaa
+      internalID: -1114462364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_492
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a4ac8424fee75479b4b4fe706b503a
+      internalID: -1973156486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_493
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a16d282787df6458a191ce079d893a
+      internalID: 1711546017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_494
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3e61be6c66e6047b81830fd0f98747
+      internalID: -681372860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_495
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55564d2627bd5c142b6da7a0be168ff5
+      internalID: 956955546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_496
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5c6ebdd7ab0a24692edf5d7ce808ac
+      internalID: -2102899047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_497
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181be9a557e66034fad72ceb08cddbef
+      internalID: 1276756811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_498
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a373d2aecdc79c4ca19c5755bf3faf9
+      internalID: 751437622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_499
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca4afe9d89c6134b8dcaef64a7c8a23
+      internalID: -244750650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_500
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441315a879dac564389e8abde3e53f80
+      internalID: 1170703498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_501
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f7448db16cf574c8661dbb7973d759
+      internalID: 1022672800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_502
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756c6366823beae4bb6ae3e017215548
+      internalID: 2126219869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_503
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa477c24ad251ac4e9d88fd77271c106
+      internalID: -601269352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_504
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4b46ca8db8d9f4499eb12b7f206930
+      internalID: 385130874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_505
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadd93ad6ede3fc4fa5b444fb5657112
+      internalID: 1231878340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_506
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5195109d2cf4d4d449050e0c4b921aa9
+      internalID: -1739363853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_507
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7947745b9d55c498a20c5555b7c3cf
+      internalID: 2144802739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_508
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b524903ec22ca3344a6dac7248ea6a96
+      internalID: -1229066989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_509
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22855ad061d41fe479c2fa25104a58eb
+      internalID: 1832928686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_510
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482b66a9ef1ca334d9139a5f3f0b0047
+      internalID: 274038688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_511
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027c874466edbdd4fb6008444faf5f24
+      internalID: 346491785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_512
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546a2ab8d402f604288245776302febf
+      internalID: -1080968208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_513
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baffafccdcf3b0448cddd2704c8d4a4
+      internalID: 1099814680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_514
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 80
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aae03435daec5b40992f2fa723b9c24
+      internalID: -224563913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_515
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b20e9a65b0c1743bf0df4ec10b5a25
+      internalID: 455025224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_516
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387d6607530ea2a40a73c5f84e5c5c16
+      internalID: -990565082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_517
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ef505973463fe49bdb38363aea1446
+      internalID: -598642309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_518
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7af8233615d7cd4bb8131938bb025a9
+      internalID: 1343038107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_519
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf884d6227053841bff468ee5237463
+      internalID: 1435562146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_520
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b80a64aab677f4d8d742fea03abe58
+      internalID: -1965398429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_521
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff73ea3dfbfd2e41836672a96519464
+      internalID: -1416238986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_522
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53a4e961616833469b9387ace800a78
+      internalID: 1266613791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_523
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ee38d3b9106c14d9967add9bec9b47
+      internalID: -2098754649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_524
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8774569673c6d643ba846045abe765c
+      internalID: -1852766273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_525
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98eb811d0ecf59f45ad18f7f731b073f
+      internalID: 1805069843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_526
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af57770b99aa9448a4eaf0a586f4762
+      internalID: -435133866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_527
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323b5600702dc034c85b20cef127af0b
+      internalID: 1270206787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_528
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83536b4d85971647bd4d8a93153e64f
+      internalID: 356923870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_529
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bb57aaf549f944baa62b1eb125122d
+      internalID: -1130171444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_530
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b609031d59a6ad43bf4b4b9362a3097
+      internalID: 608380073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_531
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba91295de825f16449fe52af25277e86
+      internalID: 1356834871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_532
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e2265a7c1c5eb4b8dcaa820f556c49
+      internalID: 1145655738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_533
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c6addfb363b754e81edb07149e314d
+      internalID: 1982505861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_534
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf07e9c97fa7ee9438f9cdbe11b672a9
+      internalID: -1038326307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_535
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5946185b331da0c47b1c40f7394c48c2
+      internalID: 1348074426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_536
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89dc952f231d01409dc1760c81215b2
+      internalID: -1150532624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_537
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df0cdea57736ff4190b58cd7bd5493b
+      internalID: 1388155975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_538
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7f723244e13ca4aad3c5a0d5be9dd0
+      internalID: 2000623204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_539
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9516c576bb87d4b893dd0e6275ca5f
+      internalID: -668231248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thug3_540
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a8fc95c66833e4180d10e09a91ca88
+      internalID: 1531962421
       vertices: []
       indices: 
       edges: []
@@ -10283,15 +11913,92 @@ TextureImporter:
       thug3_461: 660418877
       thug3_462: -2106880563
       thug3_463: 101109636
+      thug3_464: 9275002
+      thug3_465: 1653697497
+      thug3_466: 53573773
+      thug3_467: 608437476
+      thug3_468: -1008313800
+      thug3_469: 1764791780
       thug3_47: -1300253658
+      thug3_470: 1961563254
+      thug3_471: -1369846670
+      thug3_472: -73557180
+      thug3_473: 559975954
+      thug3_474: 522020393
+      thug3_475: -1558954020
+      thug3_476: -1438393970
+      thug3_477: 1428640123
+      thug3_478: -433684417
+      thug3_479: 718805626
       thug3_48: 1869046798
+      thug3_480: -510024543
+      thug3_481: 28709606
+      thug3_482: 1895611700
+      thug3_483: 1852226249
+      thug3_484: 1372338357
+      thug3_485: -1085058144
+      thug3_486: 942925802
+      thug3_487: -793272040
+      thug3_488: -1432486148
+      thug3_489: -1663268256
       thug3_49: 1800585353
+      thug3_490: -690943215
+      thug3_491: -1114462364
+      thug3_492: -1973156486
+      thug3_493: 1711546017
+      thug3_494: -681372860
+      thug3_495: 956955546
+      thug3_496: -2102899047
+      thug3_497: 1276756811
+      thug3_498: 751437622
+      thug3_499: -244750650
       thug3_5: -719834502
       thug3_50: -978985121
+      thug3_500: 1170703498
+      thug3_501: 1022672800
+      thug3_502: 2126219869
+      thug3_503: -601269352
+      thug3_504: 385130874
+      thug3_505: 1231878340
+      thug3_506: -1739363853
+      thug3_507: 2144802739
+      thug3_508: -1229066989
+      thug3_509: 1832928686
       thug3_51: 247421284
+      thug3_510: 274038688
+      thug3_511: 346491785
+      thug3_512: -1080968208
+      thug3_513: 1099814680
+      thug3_514: -224563913
+      thug3_515: 455025224
+      thug3_516: -990565082
+      thug3_517: -598642309
+      thug3_518: 1343038107
+      thug3_519: 1435562146
       thug3_52: 1820544121
+      thug3_520: -1965398429
+      thug3_521: -1416238986
+      thug3_522: 1266613791
+      thug3_523: -2098754649
+      thug3_524: -1852766273
+      thug3_525: 1805069843
+      thug3_526: -435133866
+      thug3_527: 1270206787
+      thug3_528: 356923870
+      thug3_529: -1130171444
       thug3_53: 44588879
+      thug3_530: 608380073
+      thug3_531: 1356834871
+      thug3_532: 1145655738
+      thug3_533: 1982505861
+      thug3_534: -1038326307
+      thug3_535: 1348074426
+      thug3_536: -1150532624
+      thug3_537: 1388155975
+      thug3_538: 2000623204
+      thug3_539: -668231248
       thug3_54: -1701777926
+      thug3_540: 1531962421
       thug3_55: 225213435
       thug3_56: 1329514622
       thug3_57: -1644448999
