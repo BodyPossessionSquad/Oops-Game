@@ -3732,11 +3732,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 8
+        value: 10
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 9
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -3744,11 +3744,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: (Walking sounds)
+        value: 
         type: 0
         typeString: 
       - title: Sequence
-        value: MoveTo (pointa, Police_Electric,5);
+        value: 
         type: 0
         typeString: 
       conversationID: 8
@@ -3773,7 +3773,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 160
-        y: 30
+        y: 29.253723
         width: 160
         height: 30
     - id: 1
@@ -3799,11 +3799,14 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Damn!
+        value: 'Damn!
+
+
+          (moving sounds)'
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: MoveTo (pointa, Police_Electric,5);
         type: 0
         typeString: 
       conversationID: 8
@@ -3858,7 +3861,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: MoveTo (pointb, Police_Electric,2);
         type: 0
         typeString: 
       conversationID: 8
@@ -3883,7 +3886,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 160
-        y: 130
+        y: 129.18033
         width: 160
         height: 30
     - id: 3
@@ -3937,7 +3940,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 1.2200007
   syncInfo:
     syncActors: 1
     syncItems: 0

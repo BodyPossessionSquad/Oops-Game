@@ -12,4 +12,5 @@ public class MovementStep
 {
     public Vector2 direction;
     public float duration;
+    // Removed the flip flag as it's no longer needed
 }

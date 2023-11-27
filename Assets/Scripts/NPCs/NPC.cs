@@ -10,12 +10,15 @@ public class NPC : MonoBehaviour
     public NPCConfiguration configuration;
     public float dispossessCooldown = 10f;
     public float lastDispossessedTime;
+    public GameObject flashlight;
 
 
     private Rigidbody2D rb;
     private Vector2 movement = Vector2.zero;
     private int currentStepIndex = 0;
     private MovementPattern movementPattern;
+    private bool facingRight = true;
+    private bool facingUp = true;
 
     void Start()
     {
@@ -34,28 +37,90 @@ public class NPC : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
-    IEnumerator MovementRoutine()
+   void Update()
+{
+    UpdateAnimator();
+
+    // Handle left and right flipping
+    if ((movement.x > 0 && !facingRight) || (movement.x < 0 && facingRight))
     {
-        while (canMove)
-        {
-            MovementStep step = movementPattern.steps[currentStepIndex];
-            Vector2 targetPosition = (Vector2)transform.position + step.direction;
-            float elapsedTime = 0f;
-            while (elapsedTime < step.duration && canMove)
-            {
-                Vector2 newPos = Vector2.MoveTowards((Vector2)transform.position, targetPosition, speed * Time.deltaTime);
-                rb.MovePosition(newPos);
-                movement = (newPos - (Vector2)transform.position).normalized;
-                UpdateAnimator();
-                elapsedTime += Time.deltaTime;
-                yield return null;
-            }
-            rb.velocity = Vector2.zero;
-            UpdateAnimator();
-            yield return new WaitForSeconds(1.5f);  // Wait for 1.5 seconds at each step
-            currentStepIndex = (currentStepIndex + 1) % movementPattern.steps.Count;  // Loop back to the first step if at the end of the list
-        }
+        FlipCharacterHorizontal();
     }
+
+    // Handle up and down flipping
+    if ((movement.y > 0 && !facingUp) || (movement.y < 0 && facingUp))
+    {
+        FlipCharacterVertical();
+    }
+}
+
+void FlipCharacterHorizontal()
+{
+    facingRight = !facingRight;
+
+    // Flip the flashlight
+    if (flashlight != null)
+    {
+        // Adjust the local rotation
+        flashlight.transform.localEulerAngles = new Vector3(
+            flashlight.transform.localEulerAngles.x,
+            facingRight ? -180 : 0,  // Flip rotation based on facingRight
+            flashlight.transform.localEulerAngles.z);
+
+        // Adjust the local position
+        // Example: Move the flashlight slightly to the right or left when flipped
+        // You'll need to tweak the values based on your specific needs
+        float xOffset = facingRight ? 0.1f : -0.10f; // Adjust this value as needed
+        flashlight.transform.localPosition = new Vector3(
+            xOffset,
+            flashlight.transform.localPosition.y,
+            flashlight.transform.localPosition.z);
+    }
+}
+
+   void FlipCharacterVertical()
+{
+    facingUp = !facingUp;
+
+    // Logic for flipping or adjusting the flashlight for up/down
+    // This might involve changing the local position or rotation
+    // Example:
+     flashlight.transform.localEulerAngles = new Vector3(
+         facingUp ? 180 : 0,  // Adjust for up or down
+         flashlight.transform.localEulerAngles.y,
+         flashlight.transform.localEulerAngles.z);
+
+    // Adjust position if needed
+    float yOffset = facingUp ? 0.1f : -0.1f; // Adjust as needed
+     flashlight.transform.localPosition = new Vector3(
+         flashlight.transform.localPosition.x,
+         yOffset,
+        flashlight.transform.localPosition.z);
+}
+
+    IEnumerator MovementRoutine()
+{
+    while (canMove)
+    {
+        MovementStep step = movementPattern.steps[currentStepIndex];
+        // Removed the FlipCharacter(step.flip); line as flipping is handled in Update method
+        Vector2 targetPosition = (Vector2)transform.position + step.direction;
+        float elapsedTime = 0f;
+        while (elapsedTime < step.duration && canMove)
+        {
+            Vector2 newPos = Vector2.MoveTowards((Vector2)transform.position, targetPosition, speed * Time.deltaTime);
+            rb.MovePosition(newPos);
+            movement = (newPos - (Vector2)transform.position).normalized;
+            UpdateAnimator();
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        rb.velocity = Vector2.zero;
+        UpdateAnimator();
+        yield return new WaitForSeconds(1.5f);  // Wait for 1.5 seconds at each step
+        currentStepIndex = (currentStepIndex + 1) % movementPattern.steps.Count;  // Loop back to the first step if at the end of the list
+    }
+}
 
     IEnumerator WaypointMovementRoutine()
  {
