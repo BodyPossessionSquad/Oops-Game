@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; // Needed for SceneManager
+using System.Collections;
 
 public class Player : MonoBehaviour
 {
@@ -11,7 +13,7 @@ public class Player : MonoBehaviour
     public delegate void Death();
     public event Death OnDeath;
 
-    private void Start()
+    void Start()
     {
         currentHealth = MaxHealth;
     }
@@ -31,6 +33,7 @@ public class Player : MonoBehaviour
     {
         OnDeath?.Invoke();
     }
+
 
     // Other player-related methods...
 }

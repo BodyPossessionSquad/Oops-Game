@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/kadir-level.unity
     guid: 48c6b0adc4c0d4f49b46220e9d6a4977
+  - enabled: 1
+    path: Assets/Scenes/police-station.unity
+    guid: 1cc588827ee888e47bbf08a9023b14ef
   m_configObjects: {}

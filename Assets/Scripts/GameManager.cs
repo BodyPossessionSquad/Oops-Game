@@ -14,18 +14,27 @@ public class GameManager : MonoBehaviour
     private int maxPlayerHealth = 100; // Set this to your player's max initial health
     private bool isGameOver = false;
     public static GameManager Instance { get; private set; }
+    public string targetScene;
+    public Vector3 targetPosition;
+
 
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Optional: if you want to persist across scenes.
+            DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded;
         }
-        else
+        else if (Instance != this)
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     // Dictionary to manage tagged coroutines
@@ -43,6 +52,34 @@ public class GameManager : MonoBehaviour
         if (isGameOver && Input.GetKeyDown(KeyCode.Space))
         {
             RestartGame(); // Restarts the game when space is pressed after a game over
+        }
+    }
+
+    public void TeleportPlayer(string sceneName, Vector3 position)
+    {
+        targetScene = sceneName;
+        targetPosition = position;
+        SceneManager.LoadScene(sceneName);
+    }
+
+     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == targetScene)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                player.transform.position = targetPosition;
+            }
+        }
+    }
+
+
+    public void MovePlayerToTargetPosition(GameObject player)
+    {
+        if (player != null && SceneManager.GetActiveScene().name == targetScene)
+        {
+            player.transform.position = targetPosition;
         }
     }
 
@@ -126,6 +163,19 @@ private IEnumerator ReinitializeUIManagerAfterSceneLoad()
             coroutines.Clear();
         }
     }
+
+    public IEnumerator SetPlayerPositionAfterFrame()
+{
+    // Wait for the next frame to ensure all scene initialization is complete
+    yield return null;
+
+    // Find the player in the scene and set its position
+    GameObject player = GameObject.FindGameObjectWithTag("Player");
+    if (player != null)
+    {
+        player.transform.position = targetPosition; // Use targetPosition here
+    }
+}
 
     // Coroutine to execute an action after a delay
     private IEnumerator ExecuteAfterDelayCoroutine(float delay, Action action)
