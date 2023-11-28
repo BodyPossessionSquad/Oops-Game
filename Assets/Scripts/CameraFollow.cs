@@ -5,21 +5,13 @@ public class CameraFollow : MonoBehaviour
     public Transform target;
     public float smoothSpeed = 0.125f;
     public Vector3 offset;
+    public EdgeCollider2D boundaryCollider;  // Reference to the edge collider on your tilemap
 
     private float minX, maxX, minY, maxY;
 
     private void Start()
     {
-        // Automatically find the EdgeCollider2D in the scene
-        EdgeCollider2D boundaryCollider = FindObjectOfType<EdgeCollider2D>();
-        if (boundaryCollider != null)
-        {
-            CalculateBounds(boundaryCollider);
-        }
-        else
-        {
-            Debug.LogError("EdgeCollider2D not found in the scene.");
-        }
+        CalculateBounds();
     }
 
     public void SetTarget(Transform newTarget)
@@ -45,15 +37,22 @@ public class CameraFollow : MonoBehaviour
         }
     }
 
-    void CalculateBounds(EdgeCollider2D boundaryCollider)
+    void CalculateBounds()
     {
-        Bounds boundary = boundaryCollider.bounds;
-        float halfHeight = Camera.main.orthographicSize;
-        float halfWidth = Camera.main.aspect * halfHeight;
+        if (boundaryCollider != null)
+        {
+            Bounds boundary = boundaryCollider.bounds;
+            float halfHeight = Camera.main.orthographicSize;
+            float halfWidth = Camera.main.aspect * halfHeight;
 
-        minX = boundary.min.x + halfWidth;
-        maxX = boundary.max.x - halfWidth;
-        minY = boundary.min.y + halfHeight;
-        maxY = boundary.max.y - halfHeight;
+            minX = boundary.min.x + halfWidth;
+            maxX = boundary.max.x - halfWidth;
+            minY = boundary.min.y + halfHeight;
+            maxY = boundary.max.y - halfHeight;
+        }
+        else
+        {
+            Debug.LogError("Boundary Edge Collider not assigned.");
+        }
     }
 }
