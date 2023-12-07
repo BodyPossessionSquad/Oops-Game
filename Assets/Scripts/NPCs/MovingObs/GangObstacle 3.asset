@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GangObstacle 3
   m_EditorClassIdentifier: 
   npcType: MovingObs
-  movementSpeed: 3
+  movementSpeed: 5
   possessionTime: 10
   movementPattern: {fileID: 11400000, guid: 24f7aa33549ae70449ac13b332345759, type: 2}

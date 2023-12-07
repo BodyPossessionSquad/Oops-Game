@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/police-station.unity
     guid: 1cc588827ee888e47bbf08a9023b14ef
+  - enabled: 1
+    path: Assets/Scenes/after-police.unity
+    guid: bc534831c0042e14bb4543bb7d3e4d6a
   m_configObjects: {}

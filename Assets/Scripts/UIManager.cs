@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     public Button continueButton; // Assign this in the Inspector
     public ParticleSystem blinkingEffect;
     private GameObject currentNPC;
+    public Text questText;
 
     public void SetCurrentNPC(GameObject npc)
     {
@@ -99,7 +100,7 @@ public void StopBlinking()
     }
 
     private void OnDestroy()
- {
+    {
     if (restartButton != null)
     {
         restartButton.onClick.RemoveListener(OnRestartButtonClicked);
@@ -110,9 +111,24 @@ public void StopBlinking()
         {
             continueButton.onClick.RemoveListener(OnContinueButtonClicked);
         }
- }
+    }
+
+    public void DisplayQuestInfo(string questInfo)
+ {
+    if (questText != null)
+    {
+        questText.text = questInfo;
+        questText.gameObject.SetActive(true);
+    }
+ } 
 
 
-
+    public void HideQuestInfo()
+    {
+        if (questText != null)
+        {
+            questText.gameObject.SetActive(false);
+        }
+    }
     // Add other UI related methods as needed
 }

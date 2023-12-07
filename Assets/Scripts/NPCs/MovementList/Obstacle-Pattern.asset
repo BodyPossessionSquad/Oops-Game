@@ -15,7 +15,5 @@ MonoBehaviour:
   steps:
   - direction: {x: -10, y: 0}
     duration: 10
-    flip: 1
   - direction: {x: 10, y: 0}
     duration: 10
-    flip: 1

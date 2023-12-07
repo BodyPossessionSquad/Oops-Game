@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Gang_Obstacle (2)
   m_EditorClassIdentifier: 
   steps:
-  - direction: {x: 0, y: -5}
-    duration: 5
-  - direction: {x: 0, y: 5}
-    duration: 5
+  - direction: {x: 0, y: -9}
+    duration: 10
+  - direction: {x: 0, y: 9}
+    duration: 10
